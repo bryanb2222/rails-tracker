@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crypto Payment Rails Tracker – where you can pay or settle with crypto rails today</title>
+<meta name="description" content="A plain, sourced list of payment processors, ramps and merchant tools that support USDC, USDT, RLUSD, PYUSD, XRP, Stellar, XDC, Hedera, XPR Network and Zebec. Every row links to its source.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%230b5fff%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="wrap">
+  <p class="kicker">Crypto Payment Rails Tracker</p>
+  <h1>Where you can actually pay or settle with crypto rails today</h1>
+  <p class="lede">Processors, ramps and merchant tools, the rails they support, and the fees they publish. Every row links to its source.</p>
+  <nav class="jump"><a href="#tools">Tools</a><a href="#news">Latest</a><a href="#rails">The rails</a><a href="#about">About</a></nav>
+</header>
+
+<div class="wrap"><aside class="placeholder sponsor" aria-label="Sponsor banner placeholder">
+  <strong>Sponsor banner: placeholder</strong>
+  <span>Empty slot. No sponsor yet.</span>
+</aside></div>
+
+<main class="wrap">
+  <section id="tools">
+    <h2>Payment tools and the rails they support</h2>
+    <div class="controls">
+      <label for="railFilter">Show rail</label>
+      <select id="railFilter"><option value="">All rails</option></select>
+      <span id="count" class="muted"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="toolsTable">
+        <thead><tr><th>Tool</th><th>Rails</th><th>Fees (as published)</th><th>Source</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="muted small" id="toolsNote"></p>
+  </section>
+
+  <section id="news">
+    <h2>Latest launches and integrations</h2>
+    <ul id="newsList" class="news"></ul>
+    <p class="muted small" id="newsNote"></p>
+  </section>
+
+  <section id="rails">
+    <h2>The rails, in plain English</h2>
+    <div id="railCards" class="cards"></div>
+  </section>
+
+  <section id="about">
+    <h2>About / Sponsor this site</h2>
+    <p>This is a plain list of where crypto payment rails work today. It covers what you can pay, settle, or cash out with, and what each provider says it costs.</p>
+    <p><strong>It is not investment content.</strong> No prices, no tips, and no recommendations. Facts come from each provider's own page, and fees we can't find are marked "Not published."</p>
+    <div class="placeholder">
+      <strong>Sponsor this site: placeholder</strong>
+      <span>Sponsor details are coming. No contact form yet.</span>
+    </div>
+    <p class="muted small">Some links may become affiliate links later. If they do, they'll be clearly labeled. For now there are none.</p>
+  </section>
+</main>
+
+<footer class="wrap muted small">
+  <p>Data last checked: <span id="updated"></span>. Info can change, so check the source before you rely on it. Not financial advice.</p>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

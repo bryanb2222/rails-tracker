@@ -1,0 +1,16 @@
+{
+  "comment": "Free, keyless, official sources only. type=rss parses the feed; type=listing scrapes links from an official press/blog page and reads each NEW article once for its title and published date.",
+  "sources": [
+    {"name": "Hedera blog", "publisher": "Hedera", "type": "rss", "url": "https://hedera.com/blog/rss.xml", "rail_hint": ["Hedera"]},
+    {"name": "Stellar blog", "publisher": "Stellar", "type": "rss", "url": "https://stellar.org/blog/rss.xml", "rail_hint": ["Stellar"]},
+    {"name": "Stripe blog", "publisher": "Stripe", "type": "rss", "url": "https://stripe.com/blog/feed.rss", "rail_hint": []},
+    {"name": "PayPal newsroom", "publisher": "PayPal", "type": "rss", "url": "https://newsroom.paypal-corp.com/news?pagetemplate=rss", "rail_hint": []},
+    {"name": "Stellar press", "publisher": "Stellar", "type": "listing", "url": "https://stellar.org/press", "pattern": "^/press/[a-z0-9-]{8,}$", "rail_hint": ["Stellar"]},
+    {"name": "Ripple press", "publisher": "Ripple", "type": "listing", "url": "https://ripple.com/press-releases/", "pattern": "^/ripple-press/[a-z0-9-]{8,}/$", "rail_hint": []},
+    {"name": "Ripple insights", "publisher": "Ripple", "type": "listing", "url": "https://ripple.com/insights/", "pattern": "^/insights/[a-z0-9-]{8,}/$", "rail_hint": []},
+    {"name": "Circle pressroom", "publisher": "Circle", "type": "listing", "url": "https://www.circle.com/pressroom", "pattern": "^/pressroom/[a-z0-9-]{8,}$", "rail_hint": []},
+    {"name": "Zebec blog", "publisher": "Zebec", "type": "listing", "url": "https://zebec.io/blog", "pattern": "^/blog/[a-z0-9-]{8,}$", "rail_hint": ["Zebec"]},
+    {"name": "BVNK newsroom", "publisher": "BVNK", "type": "listing", "url": "https://www.bvnk.com/newsroom", "pattern": "^/press/[a-z0-9-]{4,}$", "rail_hint": []},
+    {"name": "Metal Dollar blog", "publisher": "Metal Dollar", "type": "listing", "url": "https://metaldollar.com/blog", "pattern": "^\\.?/blog/[a-z0-9-]{8,}$", "rail_hint": []}
+  ]
+}

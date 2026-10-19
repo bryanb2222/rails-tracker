@@ -1,0 +1,333 @@
+{
+  "updated": "2026-10-18",
+  "note": "Facts as stated on each source page on the checked date. Fees change; always confirm on the source.",
+  "rows": [
+    {
+      "name": "BitPay",
+      "type": "Merchant payment processor",
+      "rails": [
+        "XRP",
+        "USDC"
+      ],
+      "fees": "2% + 25¢ (under $500K/mo), 1.5% + 25¢ ($500K–$999,999/mo), 1% + 25¢ ($1M+/mo); higher for high-risk industries",
+      "notes": "Settle in local currency, crypto, or a mix. Also lists other coins and tokens.",
+      "source": "https://bitpay.com/pricing/",
+      "fee_source": "https://bitpay.com/pricing/",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Coinbase Business (payments)",
+      "type": "Merchant tools",
+      "rails": [
+        "USDC"
+      ],
+      "fees": "Not published (Coinbase says current fees are shown inside the account)",
+      "notes": "Available in the US and Singapore per Coinbase. USDC→USD auto-conversion carries a fee.",
+      "source": "https://www.coinbase.com/business",
+      "fee_source": "https://www.coinbase.com/business",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Stripe – Stablecoin payments",
+      "type": "Merchant payment processor",
+      "rails": [
+        "USDC"
+      ],
+      "fees": "1.5% of the transaction amount (Stripe pricing page; the page also shows a 0.8% promotional rate through Jan 1, 2027 in one section)",
+      "notes": "Accepts USDC on Tempo, Ethereum, Solana, Polygon and Base; USDP and USDG (US-only). Presented in USD.",
+      "source": "https://docs.stripe.com/payments/stablecoin-payments",
+      "fee_source": "https://stripe.com/pricing",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "PayPal – PayPal USD (PYUSD)",
+      "type": "Wallet / spend",
+      "rails": [
+        "PYUSD"
+      ],
+      "fees": "No fee to convert USD↔PYUSD 1:1 on PayPal (per PayPal); other fees not published",
+      "notes": "PYUSD can be spent at U.S. merchants where PayPal is accepted, per PayPal.",
+      "source": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+      "fee_source": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "NOWPayments",
+      "type": "Merchant payment processor",
+      "rails": [
+        "USDC",
+        "USDT",
+        "PYUSD",
+        "XRP",
+        "Stellar",
+        "XDC",
+        "Hedera",
+        "Zebec"
+      ],
+      "fees": "1% service fee (as listed on pricing page); network fees separate",
+      "notes": "Supported list includes XLM, XDC, HBAR, and Zebec (ZBC on Solana), plus USDC/USDT/PYUSD.",
+      "source": "https://nowpayments.io/supported-coins",
+      "fee_source": "https://nowpayments.io/pricing",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "CoinGate",
+      "type": "Merchant payment processor",
+      "rails": [
+        "USDC",
+        "XRP"
+      ],
+      "fees": "1% payment processing (Standard plan); crypto payouts 0.50 EUR + 0.5%",
+      "notes": "USDC on Ethereum, BSC, Solana, Polygon, Arbitrum, Base, Optimism; XRP on XRP Ledger.",
+      "source": "https://coingate.com/supported-currencies",
+      "fee_source": "https://coingate.com/pricing",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "CryptAPI",
+      "type": "Merchant payment API",
+      "rails": [
+        "USDT"
+      ],
+      "fees": "1% at low volume, down to 0.25% by 30-day volume; plus network fees",
+      "notes": "Payment API. CryptAPI's homepage notes USDT support on TON.",
+      "source": "https://cryptapi.io/",
+      "fee_source": "https://cryptapi.io/fees",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Triple-A",
+      "type": "Merchant payment processor",
+      "rails": [
+        "USDC",
+        "USDT",
+        "PYUSD"
+      ],
+      "fees": "Not published (negotiated per merchant, per Triple-A terms)",
+      "notes": "USDT (Ethereum, Tron, Polygon, Arbitrum, Solana), USDC (Ethereum, Polygon, Arbitrum, Solana), PYUSD (Ethereum).",
+      "source": "https://support.triple-a.io/knowledge/what-currencies-can-i-use-to-pay-an-invoice",
+      "fee_source": "https://support.triple-a.io/knowledge/what-currencies-can-i-use-to-pay-an-invoice",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Ripple Payments",
+      "type": "Cross-border payments (business)",
+      "rails": [
+        "XRP",
+        "RLUSD"
+      ],
+      "fees": "Not published",
+      "notes": "For banks, fintechs, and businesses. Ripple cites 60+ markets; XRP can be used as a bridge asset and RLUSD for settlement.",
+      "source": "https://ripple.com/products/cross-border-payments/",
+      "fee_source": "https://ripple.com/products/cross-border-payments/",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Circle Payments Network (CPN)",
+      "type": "Settlement network (institutions)",
+      "rails": [
+        "USDC"
+      ],
+      "fees": "Not published",
+      "notes": "Network of banks, PSPs and fintechs settling in USDC (and EURC). Circle cites 25+ blockchains supported.",
+      "source": "https://www.circle.com/cpn",
+      "fee_source": "https://www.circle.com/cpn",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "MoneyGram Ramps",
+      "type": "Cash on/off-ramp",
+      "rails": [
+        "Stellar",
+        "USDC"
+      ],
+      "fees": "Not published",
+      "notes": "Cash in/out of USDC on Stellar at MoneyGram locations; Stellar cites 170+ countries with USDC cash-out.",
+      "source": "https://stellar.org/moneygram",
+      "fee_source": "https://stellar.org/moneygram",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "BVNK",
+      "type": "Stablecoin payments platform (business)",
+      "rails": [
+        "Stellar"
+      ],
+      "fees": "Not published",
+      "notes": "Added Stellar to its stablecoin payments platform on Sep 22, 2026.",
+      "source": "https://www.bvnk.com/press/bvnk-expands-multi-chain-stablecoin-infrastructure-with-stellar-integration",
+      "fee_source": "https://www.bvnk.com/press/bvnk-expands-multi-chain-stablecoin-infrastructure-with-stellar-integration",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Bridge (a Stripe company)",
+      "type": "Stablecoin orchestration API",
+      "rails": [
+        "USDC",
+        "USDT"
+      ],
+      "fees": "Not published",
+      "notes": "APIs to accept USD, USDC, USDT and settle in stablecoins; also issuance APIs.",
+      "source": "https://www.bridge.xyz/",
+      "fee_source": "https://www.bridge.xyz/",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "XDC Payments (with Bridge)",
+      "type": "Cross-border payments (business)",
+      "rails": [
+        "XDC"
+      ],
+      "fees": "Not published",
+      "notes": "XDC Foundation reported the XDC Payments platform live with Bridge for fiat on/off-ramps, virtual accounts and payouts (week of Jul 12–18, 2026).",
+      "source": "https://xdc.org/articles/xdc-weekly-jul-12",
+      "fee_source": "https://xdc.org/articles/xdc-weekly-jul-12",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "MoonPay",
+      "type": "On/off-ramp",
+      "rails": [
+        "USDC",
+        "USDT",
+        "XRP"
+      ],
+      "fees": "Not published on the page checked",
+      "notes": "Consumer on-ramp; lists USDC, USDT and XRP among supported assets.",
+      "source": "https://www.moonpay.com/buy",
+      "fee_source": "https://www.moonpay.com/buy",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Transak",
+      "type": "On/off-ramp",
+      "rails": [
+        "USDC",
+        "USDT",
+        "RLUSD",
+        "PYUSD",
+        "XRP",
+        "Stellar",
+        "Hedera"
+      ],
+      "fees": "Not published on the page checked",
+      "notes": "Coverage list includes RLUSD (Ethereum and XRPL), XLM, HBAR and XRP.",
+      "source": "https://transak.com/crypto-coverage",
+      "fee_source": "https://transak.com/crypto-coverage",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Visa – stablecoin settlement",
+      "type": "Card network settlement (issuers/acquirers)",
+      "rails": [
+        "USDC",
+        "Stellar"
+      ],
+      "fees": "Not published",
+      "notes": "Pilot for issuers and acquirers. Apr 29, 2026: added five chains, alongside existing Avalanche, Ethereum, Solana and Stellar.",
+      "source": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+      "fee_source": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Metal Pay",
+      "type": "Wallet / app",
+      "rails": [
+        "XPR",
+        "XRP",
+        "USDC"
+      ],
+      "fees": "Not published",
+      "notes": "App transfers settle on XPR Network, per Metal Pay.",
+      "source": "https://www.metalpay.com/",
+      "fee_source": "https://www.metalpay.com/",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Zebec Payroll",
+      "type": "Payroll",
+      "rails": [
+        "Zebec",
+        "Stellar",
+        "USDC"
+      ],
+      "fees": "Not published",
+      "notes": "Stablecoin payroll; MoneyGram Ramps added as fiat off-ramp on Stellar (Sep 2026).",
+      "source": "https://zebec.io/blog/zebec-and-moneygram-expand-enterprise-payroll-with-global-fiat-off-ramp-access-on-the-stellar-network",
+      "fee_source": "https://zebec.io/blog/zebec-and-moneygram-expand-enterprise-payroll-with-global-fiat-off-ramp-access-on-the-stellar-network",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Zebec Cards",
+      "type": "Crypto card",
+      "rails": [
+        "Zebec"
+      ],
+      "fees": "Silver: single load, no fees; Carbon: no transaction fees (per Zebec). Other fees not published",
+      "notes": "Virtual cards powered by Mastercard, per Zebec.",
+      "source": "https://zebec.io/cards",
+      "fee_source": "https://zebec.io/cards",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "XPayr – HBAR checkout",
+      "type": "Merchant payment processor",
+      "rails": [
+        "Hedera"
+      ],
+      "fees": "Flat 0.5% gateway fee (per XPayr)",
+      "notes": "Non-custodial HBAR checkout.",
+      "source": "https://xpayr.com/accept-hbar-payments",
+      "fee_source": "https://xpayr.com/accept-hbar-payments",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "AlgoVoi – Hedera",
+      "type": "Merchant payment gateway",
+      "rails": [
+        "Hedera",
+        "USDC"
+      ],
+      "fees": "Not published on the page checked",
+      "notes": "Hosted checkout for HBAR and USDC (HTS token) on Hedera.",
+      "source": "https://docs.algovoi.co.uk/chains/hedera",
+      "fee_source": "https://docs.algovoi.co.uk/chains/hedera",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    },
+    {
+      "name": "Wholly Crypto – Hedera",
+      "type": "Merchant payment gateway",
+      "rails": [
+        "Hedera"
+      ],
+      "fees": "Default 1% of invoice fiat value (per Wholly Crypto); network fees separate",
+      "notes": "Native HBAR only; HTS tokens not accepted.",
+      "source": "https://www.whollycrypto.com/accept-hedera/",
+      "fee_source": "https://www.whollycrypto.com/accept-hedera/",
+      "checked": "2026-10-18",
+      "affiliate_url": null
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "updated": "2026-10-18",
+  "items": [
+    {
+      "date": "2026-10-12",
+      "title": "Standard Chartered launches RLUSD custody and joins planned collateral integration with Ripple and LMAX Group",
+      "rails": [
+        "RLUSD",
+        "XRP"
+      ],
+      "url": "https://ripple.com/ripple-press/standard-chartered-launches-rlusd-custody-and-joins-planned-collateral-integration-with-ripple-and-lmax-group/",
+      "publisher": "Ripple",
+      "origin": "feed:Ripple press",
+      "date_source": "jsonld"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Tereina and Circle Bring USDC and EURC into Enterprise Workflows",
+      "rails": [
+        "USDC"
+      ],
+      "url": "https://www.circle.com/pressroom/tereina-an-sap-backed-company-and-circle-bring-usdc-and-eurc-into-enterprise-workflows-starting-with-the-sap-ecosystem-behind-84-of-global-commerce",
+      "publisher": "Circle",
+      "origin": "feed:Circle pressroom",
+      "date_source": "jsonld"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "CSD BR and Ripple use the XRP Ledger to mirror BTG Pactual fund-share records in Brazil (phase 1 live)",
+      "rails": [
+        "XRP"
+      ],
+      "url": "https://ripple.com/ripple-press/csdbr-and-ripple-use-the-xrpl-blockchain-to-expand-brazils-financial-market-infrastructure/",
+      "publisher": "Ripple",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Women's World Banking, Ripple and Pula pilot parametric insurance in Uganda with RLUSD as back-end settlement",
+      "rails": [
+        "RLUSD"
+      ],
+      "url": "https://www.womensworldbanking.org/insights/womens-world-banking-ripple-and-pula-partner-to-accelerate-livelihood-resilience-support-for-women-farmers-in-uganda/",
+      "publisher": "Women's World Banking",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Volante Technologies and Circle to advance stablecoin payment and settlement capabilities for financial institutions",
+      "rails": [
+        "USDC"
+      ],
+      "url": "https://www.circle.com/pressroom/volante-technologies-and-circle-to-advance-stablecoin-payment-and-settlement-capabilities-for-financial-institutions",
+      "publisher": "Circle",
+      "origin": "feed:Circle pressroom",
+      "date_source": "jsonld"
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Metal Dollar (XMD) mint and redeem goes live on Ethereum; reserve basket includes USDC, PYUSD and RLUSD",
+      "rails": [
+        "USDC",
+        "PYUSD",
+        "RLUSD"
+      ],
+      "url": "https://metaldollar.com/blog/metal-dollar-on-ethereum",
+      "publisher": "Metal Dollar",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Circle Supports UN Development Programme & World Food Programme",
+      "rails": [
+        "USDC"
+      ],
+      "url": "https://www.circle.com/pressroom/circle-foundation-announces-support-for-united-nations-development-programme-and-world-food-programme-to-advance-digital-payments-for-development-and-humanitarian-action",
+      "publisher": "Circle",
+      "origin": "feed:Circle pressroom",
+      "date_source": "jsonld"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "BVNK adds Stellar to its stablecoin payments platform",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://www.bvnk.com/press/bvnk-expands-multi-chain-stablecoin-infrastructure-with-stellar-integration",
+      "publisher": "BVNK",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "AllUnity and Zebec put the EURAU stablecoin to work for employee benefits on Stellar",
+      "rails": [
+        "Zebec",
+        "Stellar"
+      ],
+      "url": "https://zebec.io/blog/from-government-benefits-to-digital-payments-allunity-and-zebec-put-eurau-to-work-on-stellar",
+      "publisher": "Zebec",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Zebec and MoneyGram add a global fiat off-ramp to Zebec's enterprise payroll on Stellar",
+      "rails": [
+        "Zebec",
+        "Stellar",
+        "USDC"
+      ],
+      "url": "https://zebec.io/blog/zebec-and-moneygram-expand-enterprise-payroll-with-global-fiat-off-ramp-access-on-the-stellar-network",
+      "publisher": "Zebec",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "U.S. Bank runs a pilot transaction of its bank-issued USBDC stablecoin on Stellar (pilot, not a commercial product)",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://s203.q4cdn.com/711684571/files/doc_news/U-S--Bank-Launches-USBDC-Stablecoin-2026.pdf",
+      "publisher": "U.S. Bank",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Nuvanté announces a stablecoin clearing prototype on Stellar tested with the Bank of England RTGS Synchronisation Lab",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/nuvante-technologies-announces-stablecoin-clearing-prototype-built-on-stellar-network-integrated-to-bank-of-england-rtgs",
+      "publisher": "Stellar",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "USDT0 goes live on Stellar",
+      "rails": [
+        "USDT",
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/usdt0-goes-live-on-stellar-connecting-unified-dollar-liquidity-to-the-world-s-most-accessible-network",
+      "publisher": "Stellar",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Developer Preview: Stellar Private Payments",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/blog/developers/developer-preview-stellar-private-payments",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar blog",
+      "date_source": "rss"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Ripple and Jeonbuk Bank Partner to Modernize Cross-border Payments for Korea’s Regional Banking Sector",
+      "rails": [
+        "XRP"
+      ],
+      "url": "https://ripple.com/ripple-press/ripple-and-jeonbuk-bank-partner-to-modernize-cross-border-payments-for-korea-s-regional-banking-sector/",
+      "publisher": "Ripple",
+      "origin": "feed:Ripple press",
+      "date_source": "jsonld"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "LemFi and BVNK partner to rebuild the rails of the diaspora economy – on stablecoin rails",
+      "rails": [
+        "USDT"
+      ],
+      "url": "https://www.bvnk.com/press/lemfi",
+      "publisher": "BVNK",
+      "origin": "feed:BVNK newsroom",
+      "date_source": "jsonld"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "XDC Weekly: XDC Payments platform live with Bridge, a Stripe company",
+      "rails": [
+        "XDC"
+      ],
+      "url": "https://xdc.org/articles/xdc-weekly-jul-12",
+      "publisher": "XDC Foundation",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "UNDP and the Stellar Development Foundation extend partnership to scale proven digital payment solutions",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/undp-and-stellar-development-foundation-extend-partnership-to-scale-proven-digital-payment-solutions",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Zebec Adds Native Support for tGBP, Bringing the First UK-Based Pound Stablecoin to Payroll and Payments",
+      "rails": [
+        "Zebec"
+      ],
+      "url": "https://zebec.io/blog/zebec-adds-native-support-for-tgbp-bringing-the-first-uk-based-pound-stablecoin-to-payroll-and-payments",
+      "publisher": "Zebec",
+      "origin": "feed:Zebec blog",
+      "date_source": "listing-date-before-title"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Zebec Launches Enterprise Payroll on Stellar",
+      "rails": [
+        "Stellar",
+        "Zebec"
+      ],
+      "url": "https://zebec.io/blog/zebec-launches-enterprise-payroll-on-stellar",
+      "publisher": "Zebec",
+      "origin": "feed:Zebec blog",
+      "date_source": "listing-date-before-title"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "Visa adds five blockchains to its stablecoin settlement pilot (joining Avalanche, Ethereum, Solana and Stellar)",
+      "rails": [
+        "USDC",
+        "Stellar"
+      ],
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+      "publisher": "Visa",
+      "origin": "curated"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "MoneyGram and Stellar Extend Partnership to Scale Real-World Stablecoin Utility Globally",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/moneygram-and-stellar-extend-partnership-to-scale-real-world-stablecoin-utility-globally",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Payroll Meets USD1",
+      "rails": [
+        "Zebec"
+      ],
+      "url": "https://zebec.io/blog/payroll-meets-usd1",
+      "publisher": "Zebec",
+      "origin": "feed:Zebec blog",
+      "date_source": "listing-date-before-title"
+    }
+  ]
+}
