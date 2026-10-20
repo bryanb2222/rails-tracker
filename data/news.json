@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "items": [
     {
       "date": "2026-10-12",
@@ -240,17 +240,6 @@
       "publisher": "Stellar",
       "origin": "feed:Stellar press",
       "date_source": "time-tag"
-    },
-    {
-      "date": "2026-04-02",
-      "title": "Payroll Meets USD1",
-      "rails": [
-        "Zebec"
-      ],
-      "url": "https://zebec.io/blog/payroll-meets-usd1",
-      "publisher": "Zebec",
-      "origin": "feed:Zebec blog",
-      "date_source": "listing-date-before-title"
     }
   ]
 }
