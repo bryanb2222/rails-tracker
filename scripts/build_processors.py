@@ -84,9 +84,14 @@ rows = [
       notes="Native HBAR only; HTS tokens not accepted.",
       source="https://www.whollycrypto.com/accept-hedera/"),
 ]
+# Real affiliate links only (joined programs). Rows not listed here get None.
+# Listing order and wording stay neutral: an affiliate link never changes a row's position or text.
+AFFILIATE = {
+    "NOWPayments": "https://account.nowpayments.io/create-account?link_id=3243421676&utm_source=affiliate_lk&utm_medium=referral",
+}
 for r in rows:
     r.setdefault("fee_source", r["source"]); r["checked"] = C
-    r["affiliate_url"] = None  # PLACEHOLDER: fill only after joining a real affiliate program
+    r["affiliate_url"] = AFFILIATE.get(r["name"])
 out = dict(updated=C, note="Facts as stated on each source page on the checked date. Fees change; always confirm on the source.", rows=rows)
 p = pathlib.Path(__file__).resolve().parent.parent/"data"/"processors.json"
 p.write_text(json.dumps(out, indent=2, ensure_ascii=False)); print(len(rows), "rows ->", p)

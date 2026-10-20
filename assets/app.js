@@ -13,7 +13,7 @@ Promise.all([get("data/processors.json"), get("data/news.json"), get("data/rails
     const f = sel.value, rows = proc.rows.filter(r => !f || r.rails.includes(f));
     tbody.innerHTML = rows.map(r => `<tr>
       <td data-l="Tool"><div class="tname">${esc(r.name)}</div><div class="ttype">${esc(r.type)}</div><div class="tnote">${esc(r.notes)}</div>
-        ${r.affiliate_url ? `<a class="aff" rel="sponsored noopener" href="${esc(r.affiliate_url)}">Affiliate link</a>` : `<span class="aff" title="Placeholder: no affiliate program joined">Affiliate link spot (placeholder)</span>`}</td>
+        ${r.affiliate_url ? `<div class="affrow"><a class="aff" rel="sponsored noopener" target="_blank" href="${esc(r.affiliate_url)}">Try ${esc(r.name)}</a> <span class="afftag" title="Affiliate link: this site may earn a commission">affiliate</span></div>` : ""}</td>
       <td data-l="Rails">${r.rails.map(x => `<span class="chip">${esc(names[x] ? x : x)}</span>`).join("")}</td>
       <td data-l="Fees (as published)">${esc(r.fees)}${r.fee_source !== r.source ? ` <a href="${esc(r.fee_source)}" rel="noopener" target="_blank">(fee page)</a>` : ""}</td>
       <td data-l="Source"><a href="${esc(r.source)}" rel="noopener" target="_blank">${esc(host(r.source))}</a><div class="ttype">checked ${esc(fmtDate(r.checked))}</div></td></tr>`).join("");
