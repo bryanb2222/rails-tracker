@@ -220,7 +220,7 @@
           .concat((d.alt_urls || []).map((a) => `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.label)} ↗</a>`))
           .join("");
         return `<article class="doc" id="doc-${esc(d.id)}">
-          <div class="doc-tier"><b>T${esc(d.tier)}</b><span>tier ${esc(d.tier)}</span></div>
+          <div class="doc-tier"><b>T${esc(d.tier)}</b><span>${esc(["pocket", "core", "depth", "world"][d.tier] || "tier " + d.tier)}</span></div>
           <div class="doc-body">
             <div class="doc-top">
               <div>
