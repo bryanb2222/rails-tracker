@@ -1,0 +1,215 @@
+{
+  "updated": "2026-10-24",
+  "edition": "v3 · field edition",
+  "title": "The 60-minute setup",
+  "intro": "One phone, one USB-C stick, no account required. Do these in order. Each step tells you what could go wrong and what finished looks like — not just where to tap.",
+  "device": "iPhone 15, 256 GB (see step 1 — confirm the real free space). USB-C port is USB 2, up to 480 Mb/s, so a premium stick will not be faster. Buy for reliability, not speed.",
+  "steps": [
+    {
+      "id": "s1-space",
+      "n": 1,
+      "title": "Measure the real free space",
+      "minutes": 3,
+      "why": "Your memory of the phone's storage is not a number. The library does not fit in a plan; it fits in free gigabytes.",
+      "path": ["Settings", "General", "iPhone Storage"],
+      "do": [
+        "Read the free-space number at the top and write it in your notes file. That is your budget.",
+        "Scroll the app list once. Anything you have not opened in a year is space you can trade for manuals.",
+        "Do not delete photos yet. Move them to a computer first — an offline library is not a backup for the rest of your life."
+      ],
+      "watch": [
+        "The bar shows categories, not files. Tap a category to see what is actually eating space.",
+        "iCloud Photos with 'Optimize iPhone Storage' shows thumbnails, not originals. The originals may not be on the phone at all."
+      ],
+      "done": "You can state your free space in GB without looking it up."
+    },
+    {
+      "id": "s2-plug",
+      "n": 2,
+      "title": "Plug the stick in and find it in Files",
+      "minutes": 5,
+      "why": "The stick stores. The phone does the reading. If Files cannot see the drive, nothing else in this plan works.",
+      "path": ["Files", "Browse", "Locations"],
+      "do": [
+        "Plug the USB-C stick straight into the phone — no adapter if you can avoid one.",
+        "Open Files, tap Browse, and look under Locations for the drive's name.",
+        "Open it and confirm you can see its folders. Copy one small file in and back out to prove write access."
+      ],
+      "watch": [
+        "Nothing appears: try another cable or adapter, unplug and replug, then test the stick on a laptop. Most failures are the adapter, not the phone.",
+        "The drive appears but is read-only: it may be formatted NTFS. Reformat to ExFAT, but only after step 3's warning.",
+        "A hub or card reader may not pass enough power. Go direct."
+      ],
+      "done": "You have copied a test file onto the stick from the phone and read it back."
+    },
+    {
+      "id": "s3-format",
+      "n": 3,
+      "title": "Format it ExFAT — once, while it is empty",
+      "minutes": 5,
+      "why": "ExFAT is readable by Windows, macOS, Linux, cameras and the iPhone. Do this now, before the stick holds anything, because erasing is permanent.",
+      "path": ["Files", "Browse", "press and hold the drive name", "Erase", "ExFAT", "Erase"],
+      "do": [
+        "Confirm the stick is empty or that everything on it is already backed up somewhere else.",
+        "Press and hold the drive name in Files, choose Erase, pick ExFAT, confirm.",
+        "Eject cleanly by unplugging only after the copy finishes — do not yank it mid-write."
+      ],
+      "watch": [
+        "Erasing wipes the stick. There is no undo and no recycle bin on an external drive.",
+        "Apple's iPhone guide also lists APFS and MS-DOS (FAT). Do not choose FAT: it caps a single file at 4 GB. Do not choose APFS if a Windows laptop must read it later.",
+        "Some cheap sticks lie about capacity. Run a capacity test on a computer before you trust one with the only copy."
+      ],
+      "done": "The drive shows ExFAT in Files' info panel and is empty."
+    },
+    {
+      "id": "s4-folders",
+      "n": 4,
+      "title": "Build the folder skeleton",
+      "minutes": 5,
+      "why": "A library with no shelves becomes a downloads folder. These five folders make the difference between a pile and a plan.",
+      "path": ["Files", "stick name", "New Folder"],
+      "do": [
+        "Create 01-manuals — the field manuals and guides.",
+        "Create 02-kiwix — offline Wikipedia and other Kiwix ZIM files.",
+        "Create 03-recipes — food, water and preservation cards.",
+        "Create 04-notes — your inventory, download dates and drill log.",
+        "Create 05-apps — installers and README files for phone-side apps.",
+        "Mirror the same five folders under On My iPhone so the phone copy matches the stick copy."
+      ],
+      "watch": [
+        "Do not nest everything one level deep in a folder called Stuff. You will not find anything under stress.",
+        "Names are case-sensitive on some systems. Keep the lowercase-with-dashes convention."
+      ],
+      "done": "Ten folders exist: five on the stick, five on the phone, same names."
+    },
+    {
+      "id": "s5-safari",
+      "n": 5,
+      "title": "Send Safari downloads to the phone, not iCloud",
+      "minutes": 2,
+      "why": "iCloud can evict a file to save space and leave a cloud placeholder behind. A placeholder is not an offline copy — it is a promise that needs the internet.",
+      "path": ["Settings", "Apps", "Safari", "Downloads", "On My iPhone"],
+      "do": [
+        "Set Downloads to On My iPhone and confirm the folder it names.",
+        "In Safari, download one small PDF and verify it appears under Files, Browse, On My iPhone, Downloads.",
+        "Then copy that PDF into 01-manuals on the phone and onto the stick."
+      ],
+      "watch": [
+        "The other choice, iCloud Drive, is fine for convenience and wrong for a survival copy.",
+        "Downloads made before this change may still live in iCloud Drive. Move them deliberately.",
+        "Some links open a viewer instead of downloading. Use the share sheet and Save to Files."
+      ],
+      "done": "A newly downloaded PDF is physically in On My iPhone, and you have copied it to the stick."
+    },
+    {
+      "id": "s6-load",
+      "n": 6,
+      "title": "Load Tier 0 and Tier 1 from the shelf",
+      "minutes": 30,
+      "why": "Start with what you would actually need in the first 72 hours, not with the 6.5 GB encyclopedia.",
+      "path": ["The shelf tab", "Tier 0", "Download each link", "Save to Files"],
+      "do": [
+        "Download every Tier 0 item. These are small cards and one-page references and they take seconds.",
+        "Download the two Army survival manuals and the first-aid manual (Tier 1).",
+        "Put each file in 01-manuals and rename it so the year is in the name: FM21-76-1992.pdf, not download(3).pdf.",
+        "Log each file in 04-notes/inventory.txt: title, source link, date downloaded."
+      ],
+      "watch": [
+        "Free to download is not free to reuse. Check the license tag on each shelf card before you repost anything.",
+        "If a download stalls, cancel it and retry before switching networks. Half-written PDFs look fine in a list and fail when opened.",
+        "Keep the original filename somewhere in your notes. Renaming is fine; losing the source is not."
+      ],
+      "done": "Tier 0 is complete, both Army manuals are in 01-manuals, and every file is listed in inventory.txt with a source link."
+    },
+    {
+      "id": "s7-verify",
+      "n": 7,
+      "title": "Open every single file from the stick",
+      "minutes": 15,
+      "why": "A file that cannot open is not a library. Test while the internet still works, so a failure is an inconvenience instead of an emergency.",
+      "path": ["Files", "stick name", "01-manuals", "tap each PDF"],
+      "do": [
+        "Open each PDF from the stick. Scroll to the last page to prove the whole file is there.",
+        "Open two that you have not opened before, not the same two favourites.",
+        "Fix or re-download anything that fails. Delete broken copies so you do not trust them later."
+      ],
+      "watch": [
+        "A PDF that opens instantly usually means Safari cached it. Turn on airplane mode and try again.",
+        "Password-protected or DRM files will not be usable offline on another device.",
+        "Huge PDFs can be slow to render on a phone. Test the big ones specifically."
+      ],
+      "done": "Every file opens from the stick with airplane mode on."
+    },
+    {
+      "id": "s8-kiwix",
+      "n": 8,
+      "title": "Add Kiwix — but test the small one first",
+      "minutes": 20,
+      "why": "Kiwix reads ZIM files: offline Wikipedia, medical references, and whole book collections in one file. It is the highest-value app in the kit.",
+      "path": ["App Store", "Kiwix", "download a small ZIM", "open it in Kiwix"],
+      "do": [
+        "Install Kiwix from the App Store. It is free and needs no account.",
+        "Download one small ZIM first — not Wikipedia. Try a single-subject file in the low hundreds of MB.",
+        "Open it inside Kiwix with airplane mode on and search for three different terms.",
+        "If it works, add the bigger files to 02-kiwix, one at a time, checking free space as you go."
+      ],
+      "watch": [
+        "Whether Kiwix on iPhone can read a ZIM straight from an external stick is not confirmed. The project tracker has a 2020 request marked completed and a 2019 failure report. Assume it cannot, keep ZIMs on the phone for now, and test on your own setup.",
+        "Wikipedia is licensed CC BY-SA 4.0. Keeping a copy is fine; republishing it as your own is not.",
+        "Sizes change. Check the size on the download page before pulling a multi-gigabyte file over cellular."
+      ],
+      "done": "A ZIM file opens and returns search results with airplane mode on."
+    },
+    {
+      "id": "s9-second",
+      "n": 9,
+      "title": "Make the second copy — one is not a backup",
+      "minutes": 20,
+      "why": "Two sticks in two places survive one lost bag, one dead drive and one bad format. One stick survives nothing.",
+      "path": ["Files", "select all", "Copy", "second stick", "Paste"],
+      "do": [
+        "Copy the whole library to a second stick. Keep it somewhere else: car, bag, relative's house.",
+        "Keep a third copy of the small stuff — Tier 0 and Tier 1 — under On My iPhone, inside the phone itself.",
+        "Label both sticks physically with a paint pen: LIBRARY-A, LIBRARY-B, date."
+      ],
+      "watch": [
+        "Copying to a second stick is not the same as backing up to the cloud. Both matter; do not confuse them.",
+        "Reformatting stick B later will erase it. Check the name before you erase anything.",
+        "A stick left in a hot car or a wet bag is a dead stick. Store it dry and cool."
+      ],
+      "done": "Two sticks hold the same library, in two different places, both labelled and dated."
+    },
+    {
+      "id": "s10-drill",
+      "n": 10,
+      "title": "Run the blackout drill once",
+      "minutes": 20,
+      "why": "The library works only if you have practised using it. A drill finds the weak link while it is still cheap.",
+      "path": ["airplane mode on", "quit the app fully", "reopen from the stick"],
+      "do": [
+        "Turn on airplane mode. Do not just switch networks.",
+        "Force-quit Files and Kiwix so nothing is cached in memory.",
+        "Open one PDF from the stick, one PDF from On My iPhone, and one Kiwix article.",
+        "Look up three things you do not know by heart: a water treatment dose, a canning time and a first-aid step.",
+        "Write what failed in 04-notes/drill-log.txt with the date — then fix it."
+      ],
+      "watch": [
+        "Being able to open a file is not the same as being able to find an answer inside it. Time yourself.",
+        "If the phone is your only light and your only map, a dead battery ends the drill. Carry a power bank and a paper map.",
+        "Do not test during a real emergency. Test on a Sunday with tea."
+      ],
+      "done": "You have a dated drill log with zero unresolved failures."
+    }
+  ],
+  "after": {
+    "title": "Then put it down",
+    "body": "A library you check once a quarter beats one you rebuild in a panic. The drill tab has the quarterly routine: check the Army record pages for new editions, re-open every file, refresh the water and food stocks, and copy to the second stick. Nothing in this plan updates itself.",
+    "checklist": [
+      "Every quarter: open every file from both sticks",
+      "Every quarter: check the Army record pages for a newer edition",
+      "Every year: replace the water in your kit",
+      "Every year: re-download the USDA canning guide if it changed",
+      "Every year: replace the batteries and test the radio"
+    ]
+  }
+}

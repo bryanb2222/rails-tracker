@@ -1,0 +1,274 @@
+{
+  "updated": "2026-10-24",
+  "note": "Links and licence notes are carried forward from the v2 plan of Oct 22, 2026 and re-checked for typos in v3. I can't open third-party pages from here, so each card says where to confirm. Free to download is not free to reuse.",
+  "tier_guide": [
+    {
+      "id": 0,
+      "name": "Tier 0 · Pocket",
+      "range": "under 50 MB",
+      "desc": "Cards and one-page references you print or read from the phone in the first hour. Small enough to keep three copies of."
+    },
+    {
+      "id": 1,
+      "name": "Tier 1 · Core",
+      "range": "roughly 100–400 MB",
+      "desc": "The field manuals that answer most questions: survival, first aid, food safety. This is the part that must survive."
+    },
+    {
+      "id": 2,
+      "name": "Tier 2 · Depth",
+      "range": "roughly 0.5–2 GB",
+      "desc": "Reference packs, regional guides and subject libraries. Add after Tier 1 opens cleanly."
+    },
+    {
+      "id": 3,
+      "name": "Tier 3 · World",
+      "range": "6.5 GB and up",
+      "desc": "Offline Wikipedia and other giant ZIMs. Only worth it if the free space truly allows it."
+    }
+  ],
+  "docs": [
+    {
+      "id": "print-pack",
+      "tier": 0,
+      "kind": "Cards",
+      "title": "The pocket print pack",
+      "kicker": "This site · 2026",
+      "pages": 9,
+      "size_note": "under 2 MB as PDF",
+      "what": "Fold-and-carry cards: water doses, boil times, fire lay, signal symbols, first-aid order, food safety temperatures, rice ratios, emergency contacts.",
+      "why": "The one part of the library that still works when the phone is dead, wet or lost. Print on card stock, laminate with packing tape, punch a corner and put it on a ring.",
+      "license": "Public domain — this site's own work",
+      "license_class": "pd",
+      "caveat": "Print it before you need it. A PDF of a card is not a card.",
+      "url": "#print",
+      "url_label": "Open the print pack",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "fm2176-1992",
+      "tier": 1,
+      "kind": "Survival",
+      "title": "FM 21-76 · US Army Survival Manual",
+      "kicker": "US Army · 1992",
+      "pages": 646,
+      "size_note": "tens of MB — check the host page",
+      "what": "The classic field manual: shelter, fire, water, food procurement, traps, first aid, navigation, signalling, survival in every climate.",
+      "why": "Still the clearest all-round survival text ever printed, and its cover says 'Approved for public release; distribution is unlimited.'",
+      "license": "Public domain — US federal work",
+      "license_class": "pd",
+      "caveat": "Dated in places (medical, water doctrine). Use it as the field refresher, not the final word.",
+      "url": "https://www.bits.de/NRANEU/others/amd-us-archive/FM21-76%2892%29.pdf",
+      "url_label": "PDF on bits.de",
+      "alt_urls": [
+        {
+          "url": "https://archive.org/details/FM2176USARMYSURVIVALMANUAL",
+          "label": "Archive.org copy"
+        }
+      ],
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "fm30570-2002",
+      "tier": 1,
+      "kind": "Survival",
+      "title": "FM 3-05.70 · Survival",
+      "kicker": "US Army · May 2002",
+      "pages": 676,
+      "size_note": "tens of MB — check the host page",
+      "what": "The 2002 rewrite of the survival manual. Better diagrams, more on survival medicine, plants and signalling.",
+      "why": "Wikimedia Commons marks it public domain as a US federal work, so you can copy it, print it and share it without asking.",
+      "license": "Public domain — US federal work",
+      "license_class": "pd",
+      "caveat": "2018-era Army doctrine has moved on. Check the active edition on the Army record page before treating this as current.",
+      "url": "https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf",
+      "url_label": "Wikimedia Commons",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "fm42511-2002",
+      "tier": 1,
+      "kind": "First aid",
+      "title": "FM 4-25.11 · First Aid",
+      "kicker": "US Army · December 2002",
+      "pages": null,
+      "size_note": "check the host page",
+      "what": "Bleeding control, shock, burns, fractures, heat and cold injury, triage, transport, bandaging diagrams.",
+      "why": "Commons marks it public domain and it is the most practical illustrated first-aid text in the public set.",
+      "license": "Public domain — US federal work",
+      "license_class": "pd",
+      "caveat": "This is a 2002 field refresher, not current medical practice. Take a real first-aid and CPR course; current guidance wins every time.",
+      "url": "https://commons.wikimedia.org/wiki/File:FM_4-25.11_(FM_21-11)_First_Aid_December_2002.pdf",
+      "url_label": "Wikimedia Commons",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "army-1005316",
+      "tier": 1,
+      "kind": "Survival · current",
+      "title": "Army record PUB_ID 1005316",
+      "kicker": "US Army Publishing · ACTIVE",
+      "pages": null,
+      "size_note": "check the record page",
+      "what": "The Army's active survival publication record. Download the PDF from this page and read the distribution statement on its cover before you copy it.",
+      "why": "Newer than the 1992 and 2002 manuals. Newer is not automatically better, but it is where corrections land.",
+      "license": "Check the cover statement",
+      "license_class": "verify",
+      "caveat": "The v2 notes record the record page as ACTIVE but do not capture the title. Open the page and confirm what you are downloading and whether it is public release.",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1005316",
+      "url_label": "Army record page",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "army-1032023",
+      "tier": 1,
+      "kind": "Medical · current",
+      "title": "Army record PUB_ID 1032023",
+      "kicker": "US Army Publishing · ACTIVE",
+      "pages": null,
+      "size_note": "check the record page",
+      "what": "The second active record from the v2 notes. Likely the current first-aid / casualty-care publication; confirm the title on the page.",
+      "why": "Pairs with the 2002 first-aid manual so you can see what changed.",
+      "license": "Check the cover statement",
+      "license_class": "verify",
+      "caveat": "Title not captured in the v2 notes. Do not label the file until you have read the record page.",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1032023",
+      "url_label": "Army record page",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "usda-canning",
+      "tier": 1,
+      "kind": "Food safety",
+      "title": "USDA Complete Guide to Home Canning",
+      "kicker": "NCHFP / USDA · current",
+      "pages": null,
+      "size_note": "seven guide PDFs",
+      "what": "The tested process schedules: boiling-water and pressure canning, acidification, altitude corrections, and every recipe NCHFP has validated.",
+      "why": "It is the authority the recipes on this site point back to. Botulism is not a seasoning problem; it is a process problem.",
+      "license": "Free to download — reuse terms not found",
+      "license_class": "personal",
+      "caveat": "NCHFP offers a free printable version, but the v2 check did not find reuse terms. Keep it as your own personal copy and do not repost it.",
+      "url": "https://nchfp.uga.edu/resources/category/usda-guide/",
+      "url_label": "NCHFP guide index",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "ready-gov",
+      "tier": 2,
+      "kind": "Preparedness",
+      "title": "Ready.gov publications",
+      "kicker": "FEMA · free",
+      "pages": null,
+      "size_note": "small PDFs, a few MB each",
+      "what": "Ready kits, emergency plans, hazard-specific sheets (wildfire, flood, winter storm, power outage), comms plans and kids' material.",
+      "why": "FEMA writes these to be printed and handed out. Good for the fridge door, the car and the go-bag.",
+      "license": "Free — reproduce unaltered, no implied endorsement",
+      "license_class": "free-check",
+      "caveat": "FEMA says the files will not be updated regularly after Sept 30, 2025. Treat the hazard numbers as historical and check your local emergency agency.",
+      "url": "https://www.ready.gov/publications",
+      "url_label": "Ready.gov publications",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "fcc-part97",
+      "tier": 2,
+      "kind": "Comms",
+      "title": "FCC Part 97 · Amateur radio rules",
+      "kicker": "eCFR · current",
+      "pages": null,
+      "size_note": "web page — print to PDF",
+      "what": "The actual US rules for amateur radio: frequencies, power, identification, emergency operation.",
+      "why": "Public rules that change over time. Knowing the emergency provisions beats guessing.",
+      "license": "Public domain — US government work",
+      "license_class": "pd",
+      "caveat": "ARRL study guides are copyrighted; do not add them to a shared library. This is the rulebook, not a study course.",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97",
+      "url_label": "eCFR Part 97",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "kiwix-extras",
+      "tier": 2,
+      "kind": "Kiwix packs",
+      "title": "Kiwix subject packs",
+      "kicker": "Kiwix · mixed licences",
+      "pages": null,
+      "size_note": "hundreds of MB each",
+      "what": "Water, medicine, post-disaster response, knots, military medicine, food preservation and other single-subject ZIM files.",
+      "why": "A whole subject in one file that searches instantly, with no network. Ideal middle ground before Wikipedia.",
+      "license": "Varies by pack — unchecked",
+      "license_class": "verify",
+      "caveat": "The v2 check did not verify the licence of any individual pack. Check each pack's own page before you redistribute it. Personal offline use is the safe assumption.",
+      "url": "https://download.kiwix.org/zim/",
+      "url_label": "Kiwix download index",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "wikipedia-zim",
+      "tier": 3,
+      "kind": "Encyclopedia",
+      "title": "Offline Wikipedia",
+      "kicker": "Kiwix · CC BY-SA 4.0",
+      "pages": null,
+      "size_note": "≈6.5 GB in the v2 note — confirm before downloading",
+      "what": "A searchable slice of Wikipedia that lives on your phone with no network.",
+      "why": "It answers the long tail: a plant name, a chemical, a country, a repair. Nothing else in the library covers breadth this cheaply.",
+      "license": "CC BY-SA 4.0 — text reuse requires attribution and share-alike",
+      "license_class": "free-check",
+      "caveat": "6.5 GB is what the v2 listing showed; editions and sizes change constantly. Only add it if your free space survives it, and never at the cost of Tier 1.",
+      "url": "https://download.kiwix.org/zim/wikipedia/",
+      "url_label": "Kiwix Wikipedia index",
+      "checked": "2026-10-22"
+    }
+  ],
+  "held_out": [
+    {
+      "title": "Where There Is No Doctor",
+      "by": "Hesperian",
+      "reason": "The copyright page encourages non-commercial copying with credit, but asks you to get permission first for 'any digital format'. Whether a personal offline copy is covered is not clear from the page.",
+      "action": "Held out of the pack. To include it, write to permissions@hesperian.org and keep the reply with your library notes.",
+      "contact": "permissions@hesperian.org"
+    },
+    {
+      "title": "Appropriate Technology Library",
+      "by": "Village Earth",
+      "reason": "Sold as a 1,050-book USB set. The rights status of the individual books has not been checked.",
+      "action": "Do not redistribute the set. Single titles that state their own licence can be added one at a time, with the licence saved beside the file."
+    },
+    {
+      "title": "ARRL ham radio study guides",
+      "by": "ARRL",
+      "reason": "Copyrighted study material.",
+      "action": "Keep the free FCC rules (Part 97) instead, and buy or borrow the study guide if you want the course."
+    },
+    {
+      "title": "Any scraped or paywalled PDF",
+      "by": "Unknown",
+      "reason": "If you cannot name the licence, you cannot put it in a shared library. A ZIP of random PDFs is a legal and a trust problem.",
+      "action": "Add only material whose licence you can quote. Keep a licences.txt in the 04-notes folder."
+    }
+  ],
+  "licence_key": [
+    {
+      "class": "pd",
+      "label": "Public domain",
+      "meaning": "US federal work or explicitly released. Copy, print and share freely."
+    },
+    {
+      "class": "free-check",
+      "label": "Free, check reuse",
+      "meaning": "Free to download; redistribution has conditions. Personal offline use is fine."
+    },
+    {
+      "class": "personal",
+      "label": "Personal copy only",
+      "meaning": "Keep it for yourself. Do not post it or bundle it into anything you hand out."
+    },
+    {
+      "class": "verify",
+      "label": "Verify first",
+      "meaning": "The licence or even the title is not confirmed. Open the source page before you rely on it."
+    }
+  ]
+}

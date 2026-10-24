@@ -1,0 +1,537 @@
+{
+  "updated": "2026-10-24",
+  "note": "Ten recipes built around what is actually in a pantry, not what is in a fridge. Each card lists fuel needed, water used and what happens when you halve it. Canning recipes are transcribed from NCHFP schedules and must not be improvised.",
+  "categories": [
+    {
+      "id": "all",
+      "label": "Everything"
+    },
+    {
+      "id": "water",
+      "label": "Water & electrolytes"
+    },
+    {
+      "id": "onepot",
+      "label": "One pot"
+    },
+    {
+      "id": "nocook",
+      "label": "No fuel"
+    },
+    {
+      "id": "bake",
+      "label": "No oven"
+    },
+    {
+      "id": "preserve",
+      "label": "Preserving"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "ors",
+      "cat": "water",
+      "title": "Oral rehydration solution",
+      "kicker": "The most important recipe on this page",
+      "serves": "1 litre",
+      "time": "2 min",
+      "fuel": "None (or boil the water first)",
+      "water": "1 L",
+      "kcal": "about 100 per litre",
+      "why": "Diarrhoea and vomiting kill through dehydration, and plain water does not replace the salt and sugar that let the gut absorb it. This is the WHO household formula. It is not a sports drink and it is not optional on a hot, sick day.",
+      "ingredients": [
+        {
+          "q": "1 litre",
+          "item": "Clean water — boiled and cooled if you are not certain of it"
+        },
+        {
+          "q": "6 level tsp",
+          "item": "White table sugar (about 30 g)"
+        },
+        {
+          "q": "½ level tsp",
+          "item": "Table salt (about 2.5–3 g)"
+        }
+      ],
+      "steps": [
+        "Measure the water into a clean bottle or jug with a marked litre line.",
+        "Add the sugar and salt and stir or shake until nothing is left on the bottom.",
+        "Taste it. It should be no saltier than tears. If it tastes like seawater, throw it out and start again — do not add water to 'fix' it after the fact.",
+        "Sip continuously, small amounts often, especially after each loose stool. Keep it cool and out of the sun.",
+        "Discard anything left after 24 hours and make a fresh batch."
+      ],
+      "notes": [
+        "Never add extra salt 'to be safe'. Too much salt causes seizures, especially in small children.",
+        "No honey for children under one year — infant botulism risk.",
+        "Commercial ORS sachets are better if you have them, because the dose is exact. Keep two in the kit.",
+        "Severe dehydration — no urine, sunken eyes, confusion, inability to keep anything down — is a hospital problem, not a kitchen problem."
+      ],
+      "source": {
+        "label": "WHO: diarrhoeal disease fact sheet — ORS guidance",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+      }
+    },
+    {
+      "id": "beans-rice",
+      "cat": "onepot",
+      "title": "Red beans and rice, one pot",
+      "kicker": "The backbone meal of any pantry",
+      "serves": "4",
+      "time": "35 min",
+      "fuel": "One burner, 35 min",
+      "water": "3½ cups",
+      "kcal": "about 450 per serving",
+      "why": "Beans plus rice is a complete protein, and both store for years without a fridge. This version uses two cans and a cup of dry rice, so it needs no soaking and no pressure canner.",
+      "ingredients": [
+        {
+          "q": "1 cup",
+          "item": "Long-grain white rice"
+        },
+        {
+          "q": "1 can (15 oz)",
+          "item": "Red or kidney beans, drained"
+        },
+        {
+          "q": "1 can (14 oz)",
+          "item": "Diced tomatoes, with their juice"
+        },
+        {
+          "q": "½ cup",
+          "item": "Water, plus the juice from the tomato can (about 2¼ cups liquid total)"
+        },
+        {
+          "q": "2 tbsp",
+          "item": "Cooking oil"
+        },
+        {
+          "q": "1 tsp",
+          "item": "Salt, or to taste"
+        },
+        {
+          "q": "2 tsp",
+          "item": "Chilli powder, cumin, garlic powder, or a mix"
+        },
+        {
+          "q": "1 tsp",
+          "item": "Vinegar or hot sauce, at the table (optional)"
+        }
+      ],
+      "steps": [
+        "Heat the oil in a pot with a lid. Add the spices and stir for 30 seconds — this is where the flavour comes from, not the long cook.",
+        "Add the rice and stir to coat, about 1 minute, until it smells nutty.",
+        "Pour in the tomatoes with their juice and the water, add the salt, and bring to a boil.",
+        "Turn the heat down to the lowest setting, lid on, and cook 18 minutes without lifting the lid.",
+        "Take it off the heat, leave the lid on 10 minutes, then fold in the beans and let them warm through for 3 minutes.",
+        "Taste, adjust salt, and add vinegar or hot sauce. Acid at the end is what makes stored food taste fresh."
+      ],
+      "notes": [
+        "Ratio to remember: 1 cup rice : 1¾ cups liquid for a firm pot, 1 : 2 for a softer one. The tomato juice counts as liquid.",
+        "No can opener? A manual one lives in the kit. Never open cans with a knife.",
+        "Leftovers with no fridge: eat within two hours, or reheat to a full simmer before eating again. Do not leave it sitting warm.",
+        "Swap beans for canned chicken or tuna, and add the tomatoes anyway. The method holds."
+      ],
+      "source": {
+        "label": "USDA: food safety in a power outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      }
+    },
+    {
+      "id": "lentil-soup",
+      "cat": "onepot",
+      "title": "Dry-store lentil and rice soup",
+      "kicker": "Everything from a bucket, nothing from a fridge",
+      "serves": "4–6",
+      "time": "45 min",
+      "fuel": "One burner, 45 min",
+      "water": "6 cups",
+      "kcal": "about 300 per serving",
+      "why": "Lentils cook without soaking in under half an hour, which makes them the fastest calorie in a dry pantry. The 1 : 1 : 6 ratio is worth memorising.",
+      "ingredients": [
+        {
+          "q": "1 cup",
+          "item": "Red or brown lentils, rinsed"
+        },
+        {
+          "q": "1 cup",
+          "item": "Long-grain rice"
+        },
+        {
+          "q": "6 cups",
+          "item": "Water"
+        },
+        {
+          "q": "2 tbsp",
+          "item": "Bouillon powder or cubes"
+        },
+        {
+          "q": "1 tbsp",
+          "item": "Oil"
+        },
+        {
+          "q": "1 can (14 oz)",
+          "item": "Diced tomatoes (optional, but do it)"
+        },
+        {
+          "q": "1 tsp",
+          "item": "Cumin, curry powder or dried herbs"
+        },
+        {
+          "q": "to taste",
+          "item": "Salt, pepper, vinegar"
+        }
+      ],
+      "steps": [
+        "Rinse the lentils until the water runs clear and pick out stones. This takes two minutes and saves a dentist.",
+        "Sweat the spices in oil for 30 seconds, then add lentils, rice, water and bouillon.",
+        "Bring to a boil, then simmer partly covered for 30–35 minutes, stirring occasionally so the lentils do not catch on the bottom.",
+        "Add tomatoes in the last 10 minutes if you are using them.",
+        "Salt at the end, not the start. Lentils in salty water take longer to soften.",
+        "Rest 5 minutes off the heat. It thickens as it sits, so add hot water if it turns to porridge."
+      ],
+      "notes": [
+        "Ratio: 1 part lentils : 1 part rice : 6 parts water. Halve it by halving everything, including the water.",
+        "Add a spoon of vinegar or lemon at the table. It makes a flat soup taste like a meal.",
+        "No bouillon? Use salt and double the spices. It will be plainer, not ruined.",
+        "This is a good vehicle for any tired vegetable that needs using up."
+      ],
+      "source": {
+        "label": "USDA Complete Guide to Home Canning: dried beans and peas",
+        "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/"
+      }
+    },
+    {
+      "id": "flatbread",
+      "cat": "bake",
+      "title": "Skillet flatbread, no oven, no yeast",
+      "kicker": "Four ingredients, twenty minutes",
+      "serves": "6 pieces",
+      "time": "20 min",
+      "fuel": "One burner, 20 min",
+      "water": "¾ cup",
+      "kcal": "about 180 per piece",
+      "why": "Bread is morale. This one needs no oven, no yeast and no rising time, so it works on a single burner when the power is out and the stove is a camp stove.",
+      "ingredients": [
+        {
+          "q": "2 cups",
+          "item": "All-purpose flour (plus extra for dusting)"
+        },
+        {
+          "q": "2 tsp",
+          "item": "Baking powder"
+        },
+        {
+          "q": "¾ tsp",
+          "item": "Salt"
+        },
+        {
+          "q": "2 tbsp",
+          "item": "Oil, plus a little for the pan"
+        },
+        {
+          "q": "⅔ cup",
+          "item": "Water"
+        }
+      ],
+      "steps": [
+        "Mix the flour, baking powder and salt in a bowl.",
+        "Add the oil, then the water, and stir until it comes together into a shaggy dough. Add water a spoon at a time if it will not hold.",
+        "Knead on a floured surface for 2–3 minutes, just until smooth. Rest it 10 minutes under a cloth if you have the time.",
+        "Divide into 6 balls, flatten each with your palm or a bottle into a disc about ¼ inch thick.",
+        "Heat a dry pan over medium heat until a drop of water sizzles. Cook each disc 2–3 minutes a side, until it puffs and browns in spots.",
+        "Stack the finished breads under a cloth so they stay soft, and brush with oil if you have it."
+      ],
+      "notes": [
+        "Baking powder dies with age. Test a spoonful in hot water — if it does not fizz, your bread will not rise.",
+        "A dry pan is right. Oil smokes and burns at the temperatures flatbread wants.",
+        "No baking powder at all? Use ½ tsp baking soda plus 1 tsp vinegar in the water, and cook immediately.",
+        "Double the batch and the pan time, not the heat."
+      ],
+      "source": {
+        "label": "USDA: food safety during a power outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      }
+    },
+    {
+      "id": "oat-bars",
+      "cat": "nocook",
+      "title": "No-cook oat and peanut butter bars",
+      "kicker": "Calories with zero fuel",
+      "serves": "12 bars",
+      "time": "15 min + 1 hr chill (or 2 hr in a cool place)",
+      "fuel": "None",
+      "water": "None",
+      "kcal": "about 170 per bar",
+      "why": "When you cannot cook, you still need calories. These hold together with no heat, keep for weeks in a cool bag, and cost almost nothing.",
+      "ingredients": [
+        {
+          "q": "2 cups",
+          "item": "Rolled oats"
+        },
+        {
+          "q": "½ cup",
+          "item": "Peanut butter (or any nut or seed butter)"
+        },
+        {
+          "q": "½ cup",
+          "item": "Honey or golden syrup"
+        },
+        {
+          "q": "¼ cup",
+          "item": "Powdered milk (optional, adds protein)"
+        },
+        {
+          "q": "½ tsp",
+          "item": "Salt"
+        },
+        {
+          "q": "2 tbsp",
+          "item": "Raisins, chocolate chips, seeds, or whatever is in the cupboard"
+        }
+      ],
+      "steps": [
+        "Warm the peanut butter and honey together just enough to stir — in your hands, in the sun, or over very low heat. Do not boil them.",
+        "Mix all the dry ingredients in a bowl, then pour in the peanut butter mixture and stir until every oat is coated.",
+        "Press hard into a lined square tin or a flat container. Pressing is what stops them crumbling, so use the back of a spoon and mean it.",
+        "Chill 1 hour, or put the container somewhere genuinely cool for 2 hours.",
+        "Cut into 12 bars and wrap each one in parchment or a beeswax wrap. They keep about two weeks in a cool bag and months in a freezer."
+      ],
+      "notes": [
+        "Without a fridge, use less honey and more powdered milk and eat them within a week.",
+        "Nut butter separates in storage. Stir the jar before measuring, or the last bar will be oil and the first will be concrete.",
+        "No honey? Sugar syrup works: ½ cup sugar plus 2 tbsp water, stirred until dissolved.",
+        "These are dense on purpose. Two bars and a litre of water is a real meal on the move."
+      ],
+      "source": {
+        "label": "USDA: food safety during a power outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      }
+    },
+    {
+      "id": "sprouts",
+      "cat": "nocook",
+      "title": "Sprout lentils in a jar",
+      "kicker": "Fresh greens from a dry bucket",
+      "serves": "2 cups of sprouts",
+      "time": "3 days, 5 min a day",
+      "fuel": "None",
+      "water": "About 2 cups, plus rinses",
+      "kcal": "about 100 per cup",
+      "why": "In a long outage you will run out of anything fresh. Sprouting turns dry lentils into something green and crunchy, with no soil, no sun and no cooking.",
+      "ingredients": [
+        {
+          "q": "½ cup",
+          "item": "Whole dried lentils (not split), or mung beans, chickpeas or alfalfa seed"
+        },
+        {
+          "q": "1",
+          "item": "Clean jar with a mesh lid, muslin or a clean cloth and a rubber band"
+        }
+      ],
+      "steps": [
+        "Rinse the lentils, pick out broken ones, and put them in the jar with three times their volume of clean water.",
+        "Soak 8–12 hours or overnight, in a cool, dark place.",
+        "Drain through the mesh, then rinse and drain again. Tilt the jar so the seeds are spread along one side, not sitting in water.",
+        "Rinse and drain twice a day, morning and night. Keep the jar out of direct sun and away from heat.",
+        "They are ready in 2–4 days, when the sprouts are about ½ inch long. Give them a final rinse, and refrigerate if you have a fridge — or eat them the same day if you do not.",
+        "Rinse before eating. Cook them briefly if you are at all unsure about your water supply."
+      ],
+      "notes": [
+        "Standing water is the enemy. Sour smell or slime means the batch is bad — compost it and start again.",
+        "Sprouted seeds are a known source of food poisoning if handled badly. Wash the jar, wash your hands, use treated water.",
+        "Children, pregnant people, older adults and anyone immunocompromised should eat only cooked sprouts.",
+        "This is a fresh-food trick, not a calorie source. Do not count on it to feed you."
+      ],
+      "source": {
+        "label": "FDA: food safety at home",
+        "url": "https://www.fda.gov/food"
+      }
+    },
+    {
+      "id": "sauerkraut",
+      "cat": "preserve",
+      "title": "Sauerkraut by weight, no fridge",
+      "kicker": "Lacto-fermentation, 2% salt",
+      "serves": "1 quart jar",
+      "time": "20 min + 1–4 weeks fermenting",
+      "fuel": "None",
+      "water": "None (the cabbage makes its own brine)",
+      "kcal": "about 20 per serving",
+      "why": "Salt and time preserve cabbage without power, and the acidity that develops is what makes it safe. Weigh the salt — do not eyeball it, because the percentage is what keeps the bad bacteria out.",
+      "ingredients": [
+        {
+          "q": "1 kg (about 2¼ lb)",
+          "item": "Green cabbage, outer leaves removed, quartered and cored"
+        },
+        {
+          "q": "20 g (about 1 tbsp + ½ tsp)",
+          "item": "Non-iodised salt — 2% of the cabbage weight"
+        },
+        {
+          "q": "1",
+          "item": "Clean 1-quart jar, a weight to hold the cabbage under the brine, and a lid"
+        }
+      ],
+      "steps": [
+        "Weigh the trimmed cabbage and calculate 2% salt. For 1 kg of cabbage that is 20 g. If you have no scale, use 1 tbsp plus ½ tsp of fine non-iodised salt per 1 kg and accept a little less precision.",
+        "Shred the cabbage thinly. Put it in a bowl, sprinkle the salt over and massage for 5–10 minutes, until it goes limp and releases a lot of water.",
+        "Pack it hard into the jar, pressing down so the brine rises above the cabbage. Add the liquid from the bowl. Every piece must stay under the brine.",
+        "Hold it down with a weight or a folded outer leaf and a clean stone in a zip bag. Cover the jar with a cloth to keep flies out, or fit the lid loosely so gas can escape.",
+        "Keep at cool room temperature, 65–72°F, out of sunlight. Taste after 5 days. It is ready when it is pleasantly sour, usually 1–3 weeks. Move to a cool place, or a fridge if you have one, when it is where you want it.",
+        "Check every couple of days: skim any white film from the surface, and push the cabbage back under the brine. The brine is the shield."
+      ],
+      "notes": [
+        "Fuzzy coloured mould on the cabbage itself means the batch is gone. A thin white film on the brine is normal yeast — skim it.",
+        "Iodised salt or table salt with anti-caking agents can give a soft, unpleasant result. Use canning or sea salt.",
+        "No fridge is fine while it is fermenting. Once you open a finished jar and cannot chill it, eat it within a couple of days.",
+        "Never reduce the salt below 2% to 'make it healthier'. The percentage is the safety margin."
+      ],
+      "source": {
+        "label": "USDA Complete Guide to Home Canning: fermentation",
+        "url": "https://nchfp.uga.edu/resources/category/usda-guide/"
+      }
+    },
+    {
+      "id": "canned-tomatoes",
+      "cat": "preserve",
+      "title": "Water-bath canned tomatoes",
+      "kicker": "Acidified, tested times, jars that keep",
+      "serves": "7 quart jars",
+      "time": "2–3 hours",
+      "fuel": "Long boil, 45 min + heat-up",
+      "water": "Canner full, about 3 gallons",
+      "kcal": "about 50 per half-cup",
+      "why": "Tomatoes are the safest place to learn canning: they are borderline acid, and the right amount of bottled lemon juice pushes them firmly into high-acid territory. The times below come from NCHFP.",
+      "ingredients": [
+        {
+          "q": "About 21 lb",
+          "item": "Ripe tomatoes — about 3 lb per quart jar"
+        },
+        {
+          "q": "2 tbsp per quart",
+          "item": "Bottled lemon juice, or ½ tsp citric acid per quart (1 tbsp / ¼ tsp per pint)"
+        },
+        {
+          "q": "1 tsp per quart",
+          "item": "Salt (optional, for flavour only)"
+        },
+        {
+          "q": "7",
+          "item": "Quart jars, rings and new lids"
+        }
+      ],
+      "steps": [
+        "Wash the jars in hot soapy water and keep them hot until filled. Put the lids in a small pan of hot (not boiling) water.",
+        "Wash the tomatoes, dip them in boiling water for 30–60 seconds until the skins split, then into cold water. Slip off the skins and cut out the cores.",
+        "Put the acid in each empty jar first: 2 tbsp bottled lemon juice or ½ tsp citric acid per quart. Do not skip or halve this.",
+        "Pack the tomatoes in — raw pack or hot pack — pressing gently, and add 1 tsp salt per quart if you want it. Leave ½ inch of headspace.",
+        "Remove air bubbles with a chopstick, wipe the rims, and put on the lids to fingertip-tight.",
+        "Put the jars on the rack in the canner, water 1–2 inches above the lids. Bring to a rolling boil, then process: 45 minutes for quarts, 40 for pints, at 0–1,000 ft.",
+        "Add 5 minutes for 1,001–3,000 ft, 10 for 3,001–6,000 ft, and 15 above 6,000 ft. Use the altitude tool in the toolbox.",
+        "Lift the jars out, upright, onto a towel, and leave them 12–24 hours. Check the seal, label with contents and date, and store cool and dark with the rings off."
+      ],
+      "notes": [
+        "Acidify even if you are pressure canning. Newer tomato varieties can be less acidic than the old rules assumed.",
+        "A jar that did not seal goes in the fridge and gets eaten first, or is reprocessed within 24 hours with a new lid.",
+        "Tomato sauces with onion, pepper or meat are a different, denser product with different times. Do not stretch this recipe to cover them.",
+        "Any bulging lid, leak, mould or odd smell means discard without tasting."
+      ],
+      "source": {
+        "label": "NCHFP: whole or halved tomatoes packed in water",
+        "url": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-water/"
+      }
+    },
+    {
+      "id": "canned-beans",
+      "cat": "preserve",
+      "title": "Pressure-canned dry beans",
+      "kicker": "Advanced — pressure canner required",
+      "serves": "7 quart jars",
+      "time": "3 hours",
+      "fuel": "Pressure canner, 90 min at pressure",
+      "water": "Canner full",
+      "kcal": "about 300 per pint",
+      "why": "Beans are low-acid, so a water bath cannot make them safe. A pressure canner reaches 240°F and that is what destroys botulism spores. This is the one recipe where the equipment is not optional.",
+      "ingredients": [
+        {
+          "q": "About 7 lb",
+          "item": "Dry beans or peas (kidney, pinto, black, chickpea), about 1 lb per quart jar, sorted and rinsed"
+        },
+        {
+          "q": "as needed",
+          "item": "Water for soaking, boiling and filling"
+        },
+        {
+          "q": "½ tsp per pint",
+          "item": "Salt (optional)"
+        },
+        {
+          "q": "7",
+          "item": "Quart jars, rings, new lids"
+        }
+      ],
+      "steps": [
+        "Sort and rinse the beans. Cover with water and soak 12 hours, or use the quick method: boil 2 minutes, then stand 1 hour.",
+        "Drain, cover with fresh water, and boil 30 minutes. Do not skip this — it is a safety step, not a texture preference.",
+        "Pack hot beans into hot jars and add the cooking water, leaving 1 inch of headspace. Add salt if you like.",
+        "Remove air bubbles, wipe the rims, and put the lids on fingertip-tight.",
+        "Process pints 75 minutes and quarts 90 minutes at 10 lb (weighted gauge) or 11 lb (dial gauge) for 0–1,000 ft. Above 1,000 ft use 15 lb weighted, or the dial-gauge figure for your altitude.",
+        "Let the canner come down to zero pressure on its own. Do not vent the weight early — that pulls liquid out of the jars and can break the seal.",
+        "Cool the jars 12–24 hours, check the seals, label and store with the rings off."
+      ],
+      "notes": [
+        "Do not can beans that have already been cooked and left out. Start from dry.",
+        "Never use a pressure cooker (the lightweight kind) as a pressure canner. It has no tested process time and no reliable gauge.",
+        "1 inch of headspace, not ½. Beans swell and lift, and a bean above the brine is a spoilage risk.",
+        "Have the gauge tested if it is a dial type and older than a year."
+      ],
+      "source": {
+        "label": "NCHFP: beans or peas, shelled and dried",
+        "url": "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-or-peas-shelled-dried-all-varieties/"
+      }
+    },
+    {
+      "id": "hardtack",
+      "cat": "bake",
+      "title": "Hardtack, the honest version",
+      "kicker": "Not a meal. A delivery system for calories.",
+      "serves": "About 20 pieces",
+      "time": "1 hour 20 min",
+      "fuel": "Oven, or a Dutch oven over coals",
+      "water": "¾ cup",
+      "kcal": "about 90 per piece",
+      "why": "Hardtack keeps for years and takes up no space. It is also about as appetising as it sounds, which is why it belongs in a tin with soup, not on a plate. Knowing how to make it is worth an hour; planning to live on it is a mistake.",
+      "ingredients": [
+        {
+          "q": "4 cups",
+          "item": "Flour"
+        },
+        {
+          "q": "¾ cup",
+          "item": "Water"
+        },
+        {
+          "q": "1½ tsp",
+          "item": "Salt"
+        }
+      ],
+      "steps": [
+        "Mix flour and salt, add water gradually and knead until you have a stiff, smooth dough.",
+        "Roll out to ¼–½ inch thick and cut into 3-inch squares. Prick each piece all over with a fork or a bottle cap — the holes are what let it dry instead of moulding.",
+        "Bake at 350°F for 30 minutes, or bake in a covered Dutch oven over coals with heat on the lid.",
+        "Turn each piece and bake at 250°F for another 45–60 minutes, until they are dry all the way through and hard as a roof tile.",
+        "Cool completely on a rack. Any warmth left inside will turn to condensation and mould in the tin.",
+        "Store in a sealed tin with a moisture absorber, somewhere dry. They will outlast most of your other food."
+      ],
+      "notes": [
+        "Soften it in soup, coffee or water. Biting hardtack dry is how people crack teeth.",
+        "If it bends instead of snapping after cooling, it is not dry enough. Back in the oven.",
+        "This is about 100 calories of flour and nothing else. It has almost no fat, which means it cannot be your only food for long.",
+        "Space is real: 20 pieces is a day of calories if you are lucky. Make it for the tin, not the pantry."
+      ],
+      "source": {
+        "label": "USDA: food storage and shelf life",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "updated": "2026-10-24",
+  "drill": {
+    "title": "The blackout drill",
+    "lede": "Twenty minutes, once a quarter. Airplane mode on, wifi off, phone unplugged. The goal is not to feel prepared — it is to find the thing that does not work while it is still cheap to fix.",
+    "phases": [
+      {
+        "name": "Before",
+        "items": [
+          "Charge the phone to 100% and unplug it. Note the starting percentage.",
+          "Turn on airplane mode. Do not just disconnect from wifi.",
+          "Force-quit Files and Kiwix so nothing is cached in memory.",
+          "Put the second stick somewhere you would actually look for it in the dark."
+        ]
+      },
+      {
+        "name": "During",
+        "items": [
+          "Open one PDF from the stick and scroll to its last page.",
+          "Open one PDF from On My iPhone, not from the stick.",
+          "Open a Kiwix article and search three different terms.",
+          "Answer three questions you do not know by heart: a water dose, a canning time, a first-aid step. Time yourself.",
+          "Fill a glass from your stored water and drink it.",
+          "Light the stove, or the lantern, and use only that light for ten minutes."
+        ]
+      },
+      {
+        "name": "After",
+        "items": [
+          "Write what failed, with the date, in 04-notes/drill-log.txt.",
+          "Fix one thing before you put the phone back on the network.",
+          "Note the battery percentage you ended on, and charge the power bank.",
+          "Copy the updated notes to both sticks."
+        ]
+      }
+    ],
+    "pass": "Every file opens, three questions get answered in under 3 minutes each, and the phone loses less than 25% battery in the whole drill."
+  },
+  "unknowns": [
+    { "claim": "Kiwix can open a ZIM straight from a USB-C stick on iPhone", "status": "Unconfirmed", "detail": "The project tracker has a 2020 request marked completed and a 2019 failure report. Assume it does not work, keep ZIMs on the phone, and test it yourself before relying on it." },
+    { "claim": "A local model fits comfortably in iPhone 15 memory", "status": "Unmeasured", "detail": "No verified figure exists for how much memory a given model needs on this phone. Start with the smallest file and measure heat, speed and battery drain on your own device." },
+    { "claim": "PocketPal or LLM Farm can search your PDFs and cite pages", "status": "Not tested", "detail": "Neither app is confirmed to index your library or show page sources. Assume it cannot until you have done it yourself." },
+    { "claim": "The Army record pages still describe current editions", "status": "Check each time", "detail": "The v2 notes record PUB_ID 1005316 and 1032023 as ACTIVE but did not capture their titles. Open the pages, read the distribution statement on the cover, and update the note." },
+    { "claim": "Ready.gov PDFs are current", "status": "Time-limited", "detail": "FEMA says the files will not be updated regularly after September 30, 2025. Treat the hazard numbers as historical and check your local emergency agency." },
+    { "claim": "The 2002 first-aid manual reflects current medical practice", "status": "No", "detail": "It is a field refresher. Take a current first-aid and CPR course, and follow current guidance over any manual on this shelf." },
+    { "claim": "Free downloads are free to reuse", "status": "Case by case", "detail": "Every shelf card carries a licence class. Public domain is public domain; free-to-read is not. Where the terms are unclear, keep it personal and do not repost it." }
+  ],
+  "rotation": [
+    { "every": "Quarterly", "task": "Run the blackout drill and log the result", "owner": "You" },
+    { "every": "Quarterly", "task": "Check the two Army record pages for a newer edition", "owner": "You" },
+    { "every": "Quarterly", "task": "Open every file on both sticks, end to end", "owner": "You" },
+    { "every": "Quarterly", "task": "Copy the notes folder to both sticks", "owner": "You" },
+    { "every": "Twice a year", "task": "Rotate pantry stock and check dates", "owner": "You" },
+    { "every": "Yearly", "task": "Replace stored water and liquid bleach", "owner": "You" },
+    { "every": "Yearly", "task": "Replace batteries, test the radio and the headlamp", "owner": "You" },
+    { "every": "Yearly", "task": "Retake a first-aid course or at least the refresher", "owner": "You" }
+  ],
+  "log_template": "DATE:\nPHONE START %:\nPHONE END %:\n\nFILES OPENED OK:\nFILES THAT FAILED:\n\nQUESTIONS ASKED (and where the answer was):\n1.\n2.\n3.\n\nTIME PER QUESTION:\n\nWHAT BROKE:\nWHAT I FIXED:\nWHAT I STILL NEED TO FIX:"
+}

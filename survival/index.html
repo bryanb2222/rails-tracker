@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offline Survival Library — the field manual in your pocket</title>
+<meta name="description" content="A working plan for an offline survival library on an iPhone 15: ten setup steps, ten field skills, ten pantry recipes, printable pocket cards, and a sourced shelf of public-domain manuals you can legally copy.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#3f4a33">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%233f4a33'/%3E%3Cpath d='M8 22h16M10 18h12M12 14h8M14 10h4' stroke='%23f1e8d4' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="sheet topbar-in">
+    <a class="brand" href="#plan">
+      <span class="brand-mark" aria-hidden="true">OSL</span>
+      <span class="brand-txt"><b>Offline Survival Library</b><span>iPhone 15 · field edition v3</span></span>
+    </a>
+
+    <div class="searchbox no-print">
+      <label class="vh" for="q">Search the library</label>
+      <input id="q" type="search" placeholder="Search: water, canning, tinder…" autocomplete="off" spellcheck="false" aria-describedby="q-hint">
+      <span id="q-hint" class="vh">Results appear below the field as you type.</span>
+      <div class="results" id="results" hidden role="listbox" aria-label="Search results"></div>
+    </div>
+
+    <button class="icon-btn no-print" id="nightBtn" type="button" aria-pressed="false" title="Red light mode — keeps your night vision">
+      <span aria-hidden="true">◐</span> <span id="nightLabel">Night</span>
+    </button>
+
+    <nav class="tabs" aria-label="Sections">
+      <a class="tab" href="#plan" data-view="plan">Plan</a>
+      <a class="tab" href="#skills" data-view="skills">How-to</a>
+      <a class="tab" href="#shelf" data-view="shelf">Shelf</a>
+      <a class="tab" href="#recipes" data-view="recipes">Recipes</a>
+      <a class="tab" href="#tools" data-view="tools">Tools</a>
+      <a class="tab" href="#drill" data-view="drill">Drill</a>
+      <a class="tab" href="#print" data-view="print">Print</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ======================= PLAN ======================= -->
+  <section class="view" id="view-plan" aria-labelledby="plan-h">
+    <div class="sheet">
+      <div class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              <span class="plate-tag solid">Offline first</span>
+              <span class="plate-tag">No account</span>
+              <span class="plate-tag warn">Plan, not a product</span>
+            </div>
+            <h1 id="plan-h">Everything you need, on a stick <em>in your pocket.</em></h1>
+            <p class="lead">A field manual for the day the power, the network, or both, stop being available. One phone. One USB-C drive. Ten setup steps, ten skills, ten recipes, and a shelf of documents you are actually allowed to copy.</p>
+            <p style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn" href="#plan/s1-space">Start the 60-minute setup</a>
+              <a class="btn ghost" href="#print">Print the pocket cards</a>
+            </p>
+          </div>
+          <figure class="hero-figure">
+            <img src="assets/img/hero.jpg" width="1100" height="738" alt="Flat-lay illustration of a phone, a USB-C stick on a lanyard, a canvas notebook, a compass, a folded topo map, a multi-tool and a pencil." fetchpriority="high">
+            <figcaption>The kit · phone does the work, stick does the storing</figcaption>
+          </figure>
+        </div>
+
+        <div class="hero-stats" id="heroStats">
+          <div><b>10</b><span>setup steps</span></div>
+          <div><b>10</b><span>field skills</span></div>
+          <div><b>10</b><span>pantry recipes</span></div>
+          <div><b>11</b><span>shelf items</span></div>
+          <div><b>0</b><span>accounts needed</span></div>
+        </div>
+      </div>
+
+      <div class="grid two" style="margin-top:34px">
+        <div class="callout">
+          <h3>What this is</h3>
+          <p>A working plan for an offline library that fits in a pocket: a phone that reads, a USB-C stick that stores, and a shelf of manuals chosen because they are legal to keep. It is the same plan as the printed v2, rebuilt as a site with the pictures, the steps and the recipes the PDF was missing.</p>
+        </div>
+        <div class="callout warn">
+          <h3>What it is not</h3>
+          <p>Not a shop, not medical advice, and not a guarantee. Every number traces to a named source, and every source is linked at the bottom of the card. Where something is unverified, the card says so out loud. Check the source before you bet your water on it.</p>
+        </div>
+      </div>
+
+      <h3 style="margin:34px 0 4px">If you only do three things</h3>
+      <p class="lead small" style="max-width:44em;margin-bottom:16px">Water, warmth and food cover almost every real outage. Each one opens as a full card with the numbers, the failure modes and the source.</p>
+      <div class="grid three" id="quickPicks" style="margin-bottom:34px"></div>
+
+      <div class="tickrule"></div>
+
+      <div class="section-head" id="setup">
+        <div>
+          <span class="sec-no">Section 01</span>
+          <h2>The 60-minute setup</h2>
+          <p id="setupIntro"></p>
+        </div>
+        <p class="mono muted small" id="setupDevice" style="max-width:30em"></p>
+      </div>
+
+      <div class="card" id="steps"></div>
+
+      <div class="callout stamp" style="margin-top:26px" id="afterBox"></div>
+    </div>
+  </section>
+
+  <!-- ======================= SKILLS ======================= -->
+  <section class="view" id="view-skills" aria-labelledby="skills-h" hidden>
+    <div class="sheet">
+      <div class="section-head" style="margin-top:34px">
+        <div>
+          <span class="sec-no">Section 02</span>
+          <h2 id="skills-h">How-to, in the order you would need it</h2>
+          <p>Every card is a procedure, not a summary: what to gather, what to do in order, what usually goes wrong, and how you know you have actually finished. Tap a card to open the full version.</p>
+        </div>
+      </div>
+
+      <div class="callout" id="triage" style="margin-bottom:26px"></div>
+
+      <div class="grid three" id="skillGrid"></div>
+
+      <p class="small muted" style="margin-top:22px">
+        Reading a card is not the same as having done it. The drill tab exists to close that gap.
+        <a href="#drill">Take the blackout drill →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================= SHELF ======================= -->
+  <section class="view" id="view-shelf" aria-labelledby="shelf-h" hidden>
+    <div class="sheet">
+      <div class="section-head" style="margin-top:34px">
+        <div>
+          <span class="sec-no">Section 03</span>
+          <h2 id="shelf-h">The shelf</h2>
+          <p>What to download, in what order, and what you are allowed to do with it afterwards. Four tiers, so a full phone never costs you the first-aid manual.</p>
+        </div>
+      </div>
+
+      <div class="grid three" id="tierGuide" style="margin-bottom:24px"></div>
+
+      <div class="tierbar" id="tierBar" role="group" aria-label="Filter by tier"></div>
+      <p class="small muted" id="shelfNote" style="margin:-6px 0 18px;max-width:60em"></p>
+
+      <div class="grid" id="docList" style="gap:14px"></div>
+
+      <h3 style="margin-top:36px">Held out, on purpose</h3>
+      <p class="lead small" style="max-width:44em">Not everything useful belongs in a copyable library. These four were considered and left off the shelf, with the reason and the way back in.</p>
+      <div id="heldOut" style="margin-top:14px"></div>
+
+      <h3 style="margin-top:36px">Licence key</h3>
+      <div class="table-wrap" style="margin-top:12px">
+        <table><thead><tr><th>Tag</th><th>Means</th></tr></thead><tbody id="licenceBody"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= RECIPES ======================= -->
+  <section class="view" id="view-recipes" aria-labelledby="recipes-h" hidden>
+    <div class="sheet">
+      <div class="section-head" style="margin-top:34px">
+        <div>
+          <span class="sec-no">Section 04</span>
+          <h2 id="recipes-h">Ten recipes for a pantry, not a fridge</h2>
+          <p>No cream, no fresh herbs, no oven required for most of them. Each card lists the fuel, the water and the calories, because in an outage those are the scarce things.</p>
+        </div>
+      </div>
+
+      <figure style="margin:0 0 22px">
+        <img src="assets/img/canning.jpg" alt="Illustration of a water-bath canner, mason jars, a jar lifter and finished jars of tomatoes." width="1100" height="738" loading="lazy" style="width:100%;height:auto;border:1px solid var(--line);border-radius:6px">
+        <figcaption class="mono small muted" style="margin-top:6px">Tested process, not vibes · acid, headspace, time, altitude</figcaption>
+      </figure>
+
+      <div class="tierbar" id="recipeBar" role="group" aria-label="Filter recipes"></div>
+      <p class="mono muted small" style="margin:-6px 0 18px">Tap a card for steps · every canning number is from NCHFP</p>
+
+      <div class="grid two" id="recipeGrid"></div>
+    </div>
+  </section>
+
+  <!-- ======================= TOOLS ======================= -->
+  <section class="view" id="view-tools" aria-labelledby="tools-h" hidden>
+    <div class="sheet">
+      <div class="section-head" style="margin-top:34px">
+        <div>
+          <span class="sec-no">Section 05</span>
+          <h2 id="tools-h">Tools that do the arithmetic</h2>
+          <p>Four calculators that replace the scribbles on the back of an envelope. They work offline, they need no signal, and they round in the safe direction.</p>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="tool">
+          <h3>Water disinfection</h3>
+          <p class="sub">CDC dose for unscented household bleach, 5–9% sodium hypochlorite.</p>
+          <div class="field"><label for="w-amount">Amount of water</label><input id="w-amount" type="number" min="0" step="0.25" value="1" inputmode="decimal"></div>
+          <div class="field"><label for="w-unit">Unit</label>
+            <select id="w-unit">
+              <option value="gal">gallons</option>
+              <option value="qt">quarts</option>
+              <option value="l">litres</option>
+            </select>
+          </div>
+          <div class="field"><label for="w-cloud">How clear is it?</label>
+            <select id="w-cloud">
+              <option value="clear">Clear</option>
+              <option value="cloudy">Cloudy, murky or very cold</option>
+            </select>
+          </div>
+          <div class="out" id="w-out" aria-live="polite"></div>
+        </div>
+
+        <div class="tool">
+          <h3>Boil time and canning adjustment</h3>
+          <p class="sub">Elevation changes both. Set your altitude once and both answers update.</p>
+          <div class="field"><label for="e-amount">Elevation</label><input id="e-amount" type="number" min="0" step="50" value="0" inputmode="numeric"></div>
+          <div class="field"><label for="e-unit">Unit</label>
+            <select id="e-unit"><option value="ft">feet</option><option value="m">metres</option></select>
+          </div>
+          <div class="out" id="e-out" aria-live="polite"></div>
+        </div>
+
+        <div class="tool">
+          <h3>Two-week stockpile</h3>
+          <p class="sub">Rough numbers, labelled as such. Better than a feeling.</p>
+          <div class="field"><label for="s-people">People</label><input id="s-people" type="number" min="1" max="30" step="1" value="2" inputmode="numeric"></div>
+          <div class="field"><label for="s-days">Days to cover</label><input id="s-days" type="number" min="1" max="90" step="1" value="14" inputmode="numeric"></div>
+          <div class="field"><label for="s-kcal">Calories per person per day</label>
+            <select id="s-kcal">
+              <option value="1800">1,800 — light activity</option>
+              <option value="2000" selected>2,000 — baseline</option>
+              <option value="2400">2,400 — hard work, cold</option>
+            </select>
+          </div>
+          <div class="out" id="s-out" aria-live="polite"></div>
+        </div>
+
+        <div class="tool">
+          <h3>How many bottles is that?</h3>
+          <p class="sub">Turning gallons into something you can actually carry home.</p>
+          <div class="field"><label for="b-gal">Gallons to store</label><input id="b-gal" type="number" min="0" step="1" value="14" inputmode="numeric"></div>
+          <div class="field"><label for="b-size">Bottle size</label>
+            <select id="b-size">
+              <option value="16.9">500 ml / 16.9 oz</option>
+              <option value="33.8">1 L / 33.8 oz</option>
+              <option value="128">1 gallon jug</option>
+              <option value="320">5 gallon can</option>
+            </select>
+          </div>
+          <div class="out" id="b-out" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <h3 style="margin-top:34px">Ratios worth memorising</h3>
+      <p class="lead small" style="max-width:44em">If you remember nothing else from the recipe page, remember these. They survive translation to any pot, any altitude, any number of people.</p>
+      <div class="table-wrap" style="margin-top:12px">
+        <table>
+          <thead><tr><th>Base</th><th>Ratio</th><th>Method</th><th>Time</th></tr></thead>
+          <tbody>
+            <tr><td>White rice</td><td>1 : 1¾ water</td><td>Boil, lid on, lowest heat, rest off heat</td><td>18 min + 10</td></tr>
+            <tr><td>Rolled oats</td><td>1 : 2</td><td>Simmer, stir</td><td>5 min</td></tr>
+            <tr><td>Lentils</td><td>1 : 3</td><td>Simmer, no soaking needed</td><td>25–30 min</td></tr>
+            <tr><td>Dry beans</td><td>1 : 3 after soaking</td><td>Soak 12 h, boil 30 min, then simmer</td><td>1½–2 h</td></tr>
+            <tr><td>Pasta</td><td>4 qt water per lb</td><td>Rolling boil, then time the box</td><td>8–12 min</td></tr>
+            <tr><td>Flatbread</td><td>2 c flour : ⅔ c water + 2 tsp powder</td><td>Dry pan, medium heat</td><td>2–3 min a side</td></tr>
+            <tr><td>Oral rehydration</td><td>1 L : 6 tsp sugar : ½ tsp salt</td><td>Stir until dissolved</td><td>2 min</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout warn" style="margin-top:22px">
+        <h4>About these numbers</h4>
+        <p class="small" style="margin:0">Water dosing and canning times are transcribed from CDC and NCHFP. Stockpile figures are estimates, not rations, and they assume adults at rest. If someone is ill, pregnant, a child or doing hard physical work, the numbers change and a clinician or a current guide beats this page.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= DRILL ======================= -->
+  <section class="view" id="view-drill" aria-labelledby="drill-h" hidden>
+    <div class="sheet">
+      <div class="section-head" style="margin-top:34px">
+        <div>
+          <span class="sec-no">Section 06</span>
+          <h2 id="drill-h">The drill</h2>
+          <p id="drillLede"></p>
+        </div>
+      </div>
+
+      <div class="grid three" id="drillPhases"></div>
+
+      <div class="callout" style="margin-top:20px" id="drillPass"></div>
+
+      <h3 style="margin-top:34px">Known unknowns</h3>
+      <p class="lead small" style="max-width:46em">The honest part. These are the claims this plan leans on that have not been proven, with what to do about each one.</p>
+      <div class="table-wrap" style="margin-top:12px">
+        <table><thead><tr><th>Claim</th><th>Status</th><th>What to do</th></tr></thead><tbody id="unknownBody"></tbody></table>
+      </div>
+
+      <h3 style="margin-top:34px">Rotation</h3>
+      <div class="table-wrap" style="margin-top:12px">
+        <table><thead><tr><th>When</th><th>What</th><th>Owner</th></tr></thead><tbody id="rotationBody"></tbody></table>
+      </div>
+
+      <h3 style="margin-top:34px">The log</h3>
+      <p class="lead small" style="max-width:44em">Copy this into 04-notes/drill-log.txt and fill it in every quarter. A drill you did not write down is a drill you will repeat badly.</p>
+      <pre id="logTemplate" style="white-space:pre-wrap;font-family:var(--mono);font-size:.8rem;line-height:1.5;background:var(--paper-2);border:1px solid var(--line);border-radius:6px;padding:16px;overflow:auto"></pre>
+      <p style="margin-top:10px"><button class="btn ghost" id="copyLog" type="button">Copy the log template</button></p>
+    </div>
+  </section>
+
+  <!-- ======================= PRINT ======================= -->
+  <section class="view print-target" id="view-print" aria-labelledby="print-h" hidden>
+    <div class="sheet">
+      <div class="section-head" style="margin-top:34px">
+        <div>
+          <span class="sec-no">Section 07</span>
+          <h2 id="print-h">The pocket cards</h2>
+          <p>Nine cards. Print on card stock, cover both sides with clear packing tape, punch a corner and put them on a ring. This is the only part of the library that still works when the phone is dead.</p>
+        </div>
+        <button class="btn no-print" id="printBtn" type="button">Print this page</button>
+      </div>
+
+      <div class="cardpack" id="printPack"></div>
+      <div class="pcard" id="printContacts" style="margin-top:14px"></div>
+
+      <p class="small muted" style="margin-top:18px">
+        Printed from <strong>Offline Survival Library</strong>, field edition v3, <span id="printDate"></span>.
+        Numbers from CDC, EPA, NCHFP and the US Army field manuals. Not a substitute for training.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="sheet">
+    <div class="foot-grid">
+      <div>
+        <h4>Offline Survival Library</h4>
+        <p class="small muted" style="margin:0">Field edition v3. A plan for a phone-sized library, rebuilt from the v2 PDF with the pictures, how-to and recipes it was missing. Plain HTML, plain JSON, no build step.</p>
+      </div>
+      <div>
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="#plan">Setup plan</a></li>
+          <li><a href="#skills">How-to skills</a></li>
+          <li><a href="#shelf">Downloadable shelf</a></li>
+          <li><a href="#recipes">Pantry recipes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://www.cdc.gov/water-emergency/about/index.html" target="_blank" rel="noopener">CDC — water safety</a></li>
+          <li><a href="https://nchfp.uga.edu/resources/category/usda-guide/" target="_blank" rel="noopener">NCHFP / USDA — canning</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf" target="_blank" rel="noopener">FM 3-05.70 — Survival</a></li>
+          <li><a href="https://www.ready.gov/kit" target="_blank" rel="noopener">Ready.gov — build a kit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Status</h4>
+        <p class="small muted" style="margin:0 0 6px">Data checked: <span id="footDate"></span></p>
+        <p class="small muted" style="margin:0">Plan only. Nothing here is set up or bought yet. Not medical, legal or financial advice.</p>
+      </div>
+    </div>
+    <p class="mono small muted" style="margin-top:26px">Works offline once loaded · No trackers · No cookies · No accounts</p>
+  </div>
+</footer>
+
+<noscript>
+  <div class="sheet" style="margin:30px auto;border:1px solid #c0561a;padding:18px;background:#fdf8ec">
+    <h2 style="margin-top:0">Without JavaScript, start here</h2>
+    <p><strong>Water:</strong> rolling boil 1 minute (3 minutes above 6,500 ft). No heat? 8 drops of unscented 5–9% bleach per gallon of clear water, 16 if cloudy, wait 30 minutes.</p>
+    <p><strong>Severe bleeding:</strong> hard direct pressure without lifting for 5–10 minutes, add gauze on top if it soaks through. Tourniquet 2–3 inches above the wound if a limb will not stop, and write the time.</p>
+    <p><strong>Lost:</strong> stop, stay put, make three of anything — three fires, three whistle blasts, three flashes. Lay a large V if you need help.</p>
+    <p><strong>Fire:</strong> tinder nest, pencil-thick twigs, then wrist-thick logs. Never indoors or in a tent.</p>
+    <p>The full library needs JavaScript because it renders from the JSON files in <code>data/</code>. The raw data is readable without it.</p>
+  </div>
+</noscript>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

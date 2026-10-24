@@ -32,3 +32,14 @@ The easiest free host is GitHub Pages, because the site is plain files (the `.no
 3. Turn on Pages: Settings → Pages → Deploy from branch `main`, folder `/`. The site goes live at `https://<user>.github.io/rails-tracker/`.
 Alternatives: Cloudflare Pages or Netlify, both by drag-and-drop of this folder. Each needs a free account.
 A custom domain is optional and costs money. It is not needed.
+
+## Offline Survival Library (separate microsite)
+
+`survival/` is a standalone offline field-manual mini-site: setup plan, ten how-to
+cards, ten pantry recipes, printable pocket cards, four calculators and a sourced
+shelf of public-domain manuals. It is plain HTML/CSS/JS + JSON with a service
+worker, and it does not share data or code with the rails tracker.
+
+    cd survival && python3 -m http.server 8765 --bind 127.0.0.1
+
+See `survival/README.md` for the data model, editorial rules and deploy notes.

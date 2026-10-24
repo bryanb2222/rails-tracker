@@ -1,0 +1,700 @@
+{
+  "updated": "2026-10-24",
+  "note": "Ten skills in the order you would actually need them. Every number here traces to a named source at the bottom of the card. Practise these before you need them; reading a card is not the same as having done it.",
+  "triage": {
+    "title": "First ten minutes: the order that keeps people alive",
+    "steps": [
+      {
+        "n": 1,
+        "t": "Stop and count",
+        "d": "Sit down. Breathe. Count what you have: people, water, warmth, light, phone charge. Panic burns more energy than any of these."
+      },
+      {
+        "n": 2,
+        "t": "Fix breathing and bleeding",
+        "d": "Airway, breathing, then circulation. Severe bleeding outranks everything else on this page."
+      },
+      {
+        "n": 3,
+        "t": "Get out of the weather",
+        "d": "Wet and cold kills faster than hunger or thirst. Shelter and dry clothes before water treatment, water before food."
+      },
+      {
+        "n": 4,
+        "t": "Make safe water",
+        "d": "You can survive days without food and about three without water. Assume every untreated source is contaminated."
+      },
+      {
+        "n": 5,
+        "t": "Signal and decide",
+        "d": "Tell someone where you are, or stay put where they will look. Moving without a plan is how searches fail."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "water",
+      "n": 1,
+      "title": "Make water safe to drink",
+      "image": "assets/img/water.jpg",
+      "image_alt": "Illustration of a pot boiling over a campfire, a water can and a filter dripping into a jar",
+      "tags": [
+        "Water",
+        "Priority"
+      ],
+      "time": "10 min + cooling",
+      "level": "Every household",
+      "why": "A person can die of dehydration in about three days, and the water that looks cleanest — a mountain stream, a rooftop cistern, a flooded well — is the water most likely to carry Giardia, E. coli or a virus. Boiling is the only method here that reliably kills all three.",
+      "gear": [
+        "Pot with a lid",
+        "Heat source",
+        "Clean container with a tight lid",
+        "Unscented household bleach (5–9%) as backup",
+        "Coffee filter or clean cloth for sediment"
+      ],
+      "steps": [
+        {
+          "t": "Settle or filter the mud first",
+          "d": "Cloudy water shields germs from heat and disinfectant. Let it stand, then pour off the clear water, or run it through a clean cloth, coffee filter or paper towel."
+        },
+        {
+          "t": "Bring it to a rolling boil",
+          "d": "A rolling boil means bubbles turning the surface over, not a few wisps at the bottom. Once it reaches that, boil 1 minute. Above 6,500 ft (about 2,000 m), boil 3 minutes."
+        },
+        {
+          "t": "Cool it covered",
+          "d": "Lid on, off the heat. Loose lids collect dust and flies. The flat taste comes from dissolved oxygen leaving; pour it between two clean containers to fix that."
+        },
+        {
+          "t": "Store it like it matters",
+          "d": "Clean, sanitised container, tight lid, cool and dark. Label the date. Tap water kept this way is good for about six months; boiled-and-stored water lasts about the same if nothing gets into it."
+        },
+        {
+          "t": "No heat? Disinfect with plain bleach",
+          "d": "Unscented household bleach, 5–9% sodium hypochlorite. Add 8 drops per gallon (2 drops per quart or litre) of clear water. Double it for cloudy water. Stir, wait 30 minutes, and it should smell faintly of chlorine. If it does not, repeat the dose once and wait another 15 minutes."
+        },
+        {
+          "t": "Know what each method does not do",
+          "d": "Boiling kills germs but does not remove chemicals. Chlorine kills most bacteria and viruses but is unreliable against Cryptosporidium and Giardia; chlorine dioxide tablets do better on those. Filters remove parasites and sediment but most do not remove viruses."
+        }
+      ],
+      "watch": [
+        "Water contaminated with fuel, pesticides or industrial chemicals cannot be made safe by boiling, filtering or disinfecting. Find another source.",
+        "Do not use splashless, scented, colour-safe or thickened bleach, and never mix bleach with ammonia or vinegar.",
+        "Bleach loses strength in storage. Replace liquid bleach about once a year and write the date on the bottle.",
+        "FEMA and EPA tables differ slightly on the altitude at which boil time goes to three minutes (5,000 vs 6,500 ft). Boiling a little longer costs only fuel.",
+        "A DIY sand-and-charcoal bucket filter is a sediment filter, not a purifier. Always disinfect after it."
+      ],
+      "done": "You have at least 1 gallon per person per day stored, and you have boiled one batch and tasted it.",
+      "sources": [
+        {
+          "label": "CDC: How to make water safe in an emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html"
+        },
+        {
+          "label": "EPA: Emergency disinfection of drinking water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+        },
+        {
+          "label": "CDC: Water treatment while hiking and travelling (PDF)",
+          "url": "https://www.cdc.gov/drinking-water/media/pdfs/backcountry_water_treatment-508.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "n": 2,
+      "title": "Build a fire that lights on the first match",
+      "image": "assets/img/fire.jpg",
+      "image_alt": "Illustration of a three-stage fire lay with tinder, twigs and split logs, lit by a ferrocerium rod",
+      "tags": [
+        "Fire",
+        "Warmth"
+      ],
+      "time": "15 min",
+      "level": "Beginner",
+      "why": "Fire buys you warmth, safe water, a signal and cooked food. Almost every failed fire is a preparation failure, not a spark failure: wet fuel, no tinder, or a pile of logs over a flame that never had a chance.",
+      "gear": [
+        "Two independent lighters",
+        "Ferrocerium rod and striker",
+        "Dry tinder in a zip bag",
+        "Knife or saw",
+        "Small candle stub"
+      ],
+      "steps": [
+        {
+          "t": "Pick a site that will not spread",
+          "d": "Cleared ground, no roots or overhanging branches, at least 10 ft from tents and brush. On snow or wet ground, lay a platform of green logs or flat stones first. Never build against a rock face — it stains, spalls and traps heat."
+        },
+        {
+          "t": "Gather three sizes — and more than you think",
+          "d": "Tinder: dry grass, birch bark, fatwood shavings, dryer lint, a candle stub. Kindling: pencil-to-finger-thick dry twigs, dead branches still on the tree. Fuel: split logs, wrist-thick and up. You want two armfuls of kindling and a pile of fuel before you strike anything."
+        },
+        {
+          "t": "Make the nest",
+          "d": "Loosen the tinder into a bird's-nest ball the size of your fist, a little airy but not falling apart. Dry hands, dry surface. Wet hands end fires."
+        },
+        {
+          "t": "Light low, then feed upward",
+          "d": "Light the nest at its base. As it catches, lay kindling on in a teepee or lean-to, leaving gaps for air. Add bigger pieces only when the flames are steady, and add them from the upwind side so you are not reaching across the fire."
+        },
+        {
+          "t": "Control the air",
+          "d": "A fire needs air as much as fuel. If it smokes and sulks, it is smothered or the wood is wet. Open a channel underneath rather than blowing on it."
+        },
+        {
+          "t": "Bank it for the night",
+          "d": "Push coals together, cover with ash, and lay a couple of dry logs across the top. In the morning, dig out the coals and add tinder — a banked fire is a head start, not a promise."
+        }
+      ],
+      "watch": [
+        "Never bring a fire, stove or grill indoors, and never use one in a tent. Carbon monoxide has no smell and kills sleeping people.",
+        "Do not burn treated lumber, painted wood, or galvanised metal. The fumes are toxic.",
+        "Wet or green wood makes smoke and steam, not heat. Store a dry fuel bundle before the rain starts.",
+        "A ferrocerium rod throws sparks at the tinder, not into it. Scrape slowly with the rod held still and the striker moving, with the tinder touching the rod.",
+        "Check burn bans and land rules. A fire you are not allowed to light is not a survival plan."
+      ],
+      "done": "You have lit three fires in a row from a single match, in daylight and after dark, and put each one dead out.",
+      "sources": [
+        {
+          "label": "FM 3-05.70 Survival: firecraft chapter",
+          "url": "https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf"
+        },
+        {
+          "label": "CDC: carbon monoxide poisoning basics",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/index.html"
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "n": 3,
+      "title": "Pitch a tarp shelter in ten minutes",
+      "image": "assets/img/shelter.jpg",
+      "image_alt": "Illustration of a tarp lean-to shelter between two pine trees with a bed of leaves beneath",
+      "tags": [
+        "Shelter",
+        "Warmth"
+      ],
+      "time": "10 min",
+      "level": "Beginner",
+      "why": "Exposure is the quiet killer: it does not announce itself like a cut or a fire. A tarp, a ridge line and a dry insulating layer under your body are worth more than a fancy shelter built badly in the rain.",
+      "gear": [
+        "8×10 ft tarp",
+        "50 ft of paracord",
+        "Four stakes or six",
+        "Sleeping pad or dry debris",
+        "Knife"
+      ],
+      "steps": [
+        {
+          "t": "Choose ground that drains",
+          "d": "High, flat, no dead limbs overhead (widowmakers), not in a dry creek bed, not on a bare ridge in a lightning storm, not on an animal trail. Look up before you look down."
+        },
+        {
+          "t": "Tie the ridge line",
+          "d": "Between two trees at about chest height, or from one tree down to a stake or a rock. Use a taut-line hitch so you can retension it when the cord stretches in the rain."
+        },
+        {
+          "t": "Drape the tarp as a lean-to",
+          "d": "Ridge edge on top, other edge staked out at 45 degrees, sloping away from the wind. Put the low edge into the prevailing wind. Keep the fabric tight: a flapping tarp both wakes you and sheds rain badly."
+        },
+        {
+          "t": "Build the bed, not just the roof",
+          "d": "You lose heat to the ground far faster than to the air. Lay down 3–4 inches of dry leaves, pine boughs, cardboard or a sleeping pad. That layer is the difference between a cold night and hypothermia."
+        },
+        {
+          "t": "Add a groundsheet or a door",
+          "d": "If you have a second tarp or a space blanket, use it underneath you. In wind, hang a corner to close the upwind side — leave the downwind side open for airflow."
+        }
+      ],
+      "watch": [
+        "A shelter with no ground insulation is a windbreak, not shelter. Fix the floor before you improve the roof.",
+        "Do not cut standing trees or live boughs. Use deadfall and leave the site as you found it.",
+        "Tarp grommets tear. Put a smooth pebble on the far side and tie around it, or use a sheet-bend-to-a-stick anchor.",
+        "In a lightning storm, get down off ridges and away from single tall trees; crouch on an insulating pad with feet together.",
+        "A tarp over a hot stove is a fire. Keep any flame well clear of fabric."
+      ],
+      "done": "You have slept one full night in it in the rain or wind, and stayed dry.",
+      "sources": [
+        {
+          "label": "FM 3-05.70 Survival: shelter chapter",
+          "url": "https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf"
+        },
+        {
+          "label": "NWS: lightning safety when outdoors",
+          "url": "https://www.weather.gov/safety/lightning-outdoors"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "n": 4,
+      "title": "Signal for rescue so someone actually sees it",
+      "image": "assets/img/signal.jpg",
+      "image_alt": "Illustration of three columns of smoke, a signal mirror and a whistle",
+      "tags": [
+        "Signal",
+        "Rescue"
+      ],
+      "time": "5 min + upkeep",
+      "level": "Beginner",
+      "why": "Rescuers search a grid, not a hunch. Your job is to be findable, not to travel heroically. Three of anything is the universal distress signal, and staying within sight of a road, trail or clearing beats walking a random direction.",
+      "gear": [
+        "Whistle",
+        "Signal mirror",
+        "Bright cloth or tarp",
+        "Headlamp with a strobe",
+        "Fire kit for smoke",
+        "Paper map and compass"
+      ],
+      "steps": [
+        {
+          "t": "Decide: stay or go",
+          "d": "If you told someone your route, stay on it and make yourself findable. If you are genuinely lost and no one knows where you are, move downhill to a drainage and follow it toward a road — but leave markers and stop early enough to build shelter before dark."
+        },
+        {
+          "t": "Build three of everything",
+          "d": "Three fires in a triangle or a line, three piles of bright material, three whistle blasts, three flashes. Three is the recognised distress pattern; a single blast or a lone fire reads as 'hello'."
+        },
+        {
+          "t": "Make ground-to-air marks",
+          "d": "Clear a 20+ ft shape against the ground using contrasting material. V = need assistance. X = need medical help. An arrow = travelling this direction. A single line = serious injury. Keep the marks geometrically clean — a mess reads as a shadow."
+        },
+        {
+          "t": "Use smoke and light",
+          "d": "Daylight: add green boughs or a little water to a hot fire for a thick column, and keep three columns going if you can. Night: a white light waved in a slow arc, or a headlamp strobe, is visible for miles. Do not leave one light burning unattended."
+        },
+        {
+          "t": "Aim the mirror properly",
+          "d": "Sight the target through the hole in the mirror, hold your other hand out to catch the glare spot, then adjust until the spot sits on the target. A flash from a mirror is visible far beyond a shout, and it weighs nothing."
+        },
+        {
+          "t": "Repeat on a schedule",
+          "d": "Signal on a regular cycle — three blasts every minute, or a light sweep every five — so a searcher who arrives between attempts still finds signs of you."
+        }
+      ],
+      "watch": [
+        "Do not burn green wood or tyres for smoke without a fire plan. A wildfire you started is a rescue you now need to be rescued from.",
+        "A phone's torch is a battery you will want later. Carry a headlamp and spare cells; ration the phone for actual calls and maps.",
+        "Whistles carry better than voices and cost almost no energy. Shouting until hoarse is how people lose their voice on day one.",
+        "SOS in Morse is three short, three long, three short. Three evenly spaced *anything* is a distress marker on its own.",
+        "Do not abandon a good signal site to chase a distant sound. Mark the site and leave a note with your direction and time."
+      ],
+      "done": "You have laid a V out of tarp or logs in the open and seen it from 100 yards, and blown three blasts on a whistle.",
+      "sources": [
+        {
+          "label": "FM 3-05.70 Survival: signalling chapter",
+          "url": "https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf"
+        },
+        {
+          "label": "FM 21-76 Survival: signalling techniques",
+          "url": "https://www.bits.de/NRANEU/others/amd-us-archive/FM21-76%2892%29.pdf"
+        }
+      ]
+    },
+    {
+      "id": "bleeding",
+      "n": 5,
+      "title": "Stop severe bleeding in sixty seconds",
+      "image": null,
+      "tags": [
+        "First aid",
+        "Priority"
+      ],
+      "time": "60 sec",
+      "level": "Take a course first",
+      "why": "A person can bleed to death from a limb wound in under five minutes. Nothing else on this site matters if you freeze at that moment. This card is a memory aid for a Stop the Bleed class — not a substitute for one.",
+      "gear": [
+        "Nitrile gloves",
+        "Gauze rolls and pads",
+        "Pressure dressing",
+        "Coagulant gauze if trained",
+        "Tourniquet (CAT or SOFTT-W)",
+        "Sharpie and tape",
+        "Trauma shears"
+      ],
+      "steps": [
+        {
+          "t": "Safety, then gloves, then call",
+          "d": "Make sure the scene will not hurt you too. Gloves on. Get someone to call emergency services and say 'severe bleeding' out loud, and have them stay on the line."
+        },
+        {
+          "t": "Press hard and do not peek",
+          "d": "Push directly into the wound with gauze, a clean cloth or your gloved hand. Full body weight if you must. Hold for 5–10 uninterrupted minutes. Lifting to check restarts the clock every time."
+        },
+        {
+          "t": "If it soaks through, add — do not remove",
+          "d": "Lay more gauze on top and keep pressing. Removing a soaked dressing pulls away whatever clot has formed."
+        },
+        {
+          "t": "Pack deep wounds",
+          "d": "For a deep wound in a junction area (neck, shoulder, groin, armpit), stuff gauze into the wound cavity with a finger, pushing all the way in, then press over the top for at least three minutes."
+        },
+        {
+          "t": "Tourniquet a limb that will not stop",
+          "d": "Place it 2–3 inches above the wound, never directly over a joint, and tighten until the bleeding stops — this hurts, and it is supposed to. Note the time on the tourniquet or the patient's forehead. Do not loosen it."
+        },
+        {
+          "t": "Treat for shock while you wait",
+          "d": "Lay the person flat, keep them warm with a blanket or coat, and do not give food or drink. Keep pressure on. Talk to them, because calm people bleed less than panicking ones."
+        }
+      ],
+      "watch": [
+        "Do not use a tourniquet as a first choice on a wound that direct pressure is controlling. Use it when pressure fails or you cannot stay with the patient.",
+        "Never put a tourniquet on a neck, head or torso.",
+        "A nosebleed: sit up, lean forward, pinch the soft part below the bone for 10–15 minutes without checking.",
+        "An amputated part: wrap in clean gauze, seal in a bag, and put the bag in cold water. Never pack it directly on ice.",
+        "This card does not cover airway, breathing, chest wounds, or paediatric doses. Take a Stop the Bleed and a CPR/first aid course, and keep the certificate with your kit."
+      ],
+      "done": "You have taken a hands-on course and applied a tourniquet to a training limb until it stopped the flow.",
+      "sources": [
+        {
+          "label": "Stop the Bleed (ACS / DHS campaign)",
+          "url": "https://www.stopthebleed.org/"
+        },
+        {
+          "label": "FM 4-25.11 First Aid",
+          "url": "https://commons.wikimedia.org/wiki/File:FM_4-25.11_(FM_21-11)_First_Aid_December_2002.pdf"
+        },
+        {
+          "label": "American Red Cross: first aid",
+          "url": "https://www.redcross.org/take-a-class/first-aid"
+        }
+      ]
+    },
+    {
+      "id": "pantry",
+      "n": 6,
+      "title": "Build a pantry that feeds you for two weeks",
+      "image": "assets/img/pantry.jpg",
+      "image_alt": "Illustration of a stocked pantry shelf with mason jars, sacks, cans and a can opener",
+      "tags": [
+        "Food",
+        "Planning"
+      ],
+      "time": "One afternoon",
+      "level": "Beginner",
+      "why": "Most 'emergency food' is either inedible or unaffordable. A working pantry is the food you already eat, bought twice, rotated, and stored so that it can be cooked with no power and no fridge.",
+      "gear": [
+        "Food-grade buckets with lids",
+        "Mylar bags and oxygen absorbers (optional)",
+        "Mason jars",
+        "Hand-crank can opener (not electric)",
+        "Permanent marker and tape",
+        "A scale"
+      ],
+      "steps": [
+        {
+          "t": "Count the people and the days",
+          "d": "Ready.gov suggests at least a 3-day supply of non-perishables, and a 2-week supply if you can. Use the stockpile calculator below to get real numbers instead of vibes."
+        },
+        {
+          "t": "Start from water, not rice",
+          "d": "One gallon per person per day covers drinking and basic sanitation. Two weeks for four people is 56 gallons, which is more space and weight than most people expect. Store it low, cool and dark, and rotate it."
+        },
+        {
+          "t": "Buy the boring base",
+          "d": "Rice, dried beans, lentils, oats, pasta, flour, oil, salt, sugar, canned tomatoes, canned fish or chicken, peanut butter, powdered milk, coffee. These are cheap, calorie-dense, and you know how to cook them."
+        },
+        {
+          "t": "Buy the flavour that makes it food",
+          "d": "Bouillon, chilli powder, cumin, garlic powder, curry powder, soy sauce, vinegar, hot sauce, honey. Two weeks of plain porridge is a morale problem before it is a nutrition problem."
+        },
+        {
+          "t": "Pack it to survive",
+          "d": "Cool, dark, dry, off the floor, away from concrete and pests. Grains and flours go into sealed buckets or jars with a date on the lid. Whole grains keep longer than ground flour; oil goes rancid sooner than rice."
+        },
+        {
+          "t": "Make sure you can cook it without power",
+          "d": "A two-burner camp stove with fuel, or a rocket stove, plus a manual can opener and a way to light it. A pantry you cannot cook is a museum."
+        },
+        {
+          "t": "Rotate and rehearse",
+          "d": "Eat from the pantry once a month and refill what you used. Once a quarter, cook a full meal from storage only, with the power off. That is the only test that counts."
+        }
+      ],
+      "watch": [
+        "Do not stock food you have never cooked. Emergencies are a bad time to learn what powdered eggs do.",
+        "No fridge means no leftovers. Cook portions you can finish, and treat any meat or dairy as a same-day item.",
+        "Home-canned low-acid food, or anything with a bulging lid, off smell or cloudy brine, gets thrown out without tasting. Botulism toxin has no reliable taste or smell.",
+        "Buckets of grain are not a plan for a small apartment. Store what fits, and prefer jars and cans you will actually rotate.",
+        "Check expiry dates twice a year and move older stock to the front. A pantry you never inspect is a science project."
+      ],
+      "done": "You have cooked one full dinner from storage with the mains power off, and everyone ate it.",
+      "sources": [
+        {
+          "label": "Ready.gov: build a kit (food and water)",
+          "url": "https://www.ready.gov/kit"
+        },
+        {
+          "label": "USDA: food safety in a power outage",
+          "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+        }
+      ]
+    },
+    {
+      "id": "canning",
+      "n": 7,
+      "title": "Water-bath can high-acid food safely",
+      "image": "assets/img/canning.jpg",
+      "image_alt": "Illustration of a water-bath canner with mason jars, jar lifter and finished jars of tomatoes",
+      "tags": [
+        "Preserving",
+        "Food"
+      ],
+      "time": "2–3 hours",
+      "level": "Follow exactly",
+      "why": "Canning is the one kitchen skill where improvising can kill someone weeks later, quietly, with no sign on the jar. The rules below are the tested USDA/NCHFP numbers. They are not suggestions and they are not a starting point for experiments.",
+      "gear": [
+        "Boiling-water canner with a rack",
+        "Mason jars, rings and new two-piece lids",
+        "Jar lifter",
+        "Canning funnel",
+        "Bubble remover or chopstick",
+        "Bottled lemon juice or citric acid",
+        "Clean towels"
+      ],
+      "steps": [
+        {
+          "t": "Only high-acid food goes in a water bath",
+          "d": "Fruit, jams, pickles, sauerkraut, and tomatoes that have been acidified. Beans, corn, carrots, meat, soup and stock are low-acid and require a pressure canner. There is no workaround, no oven method, and no 'my grandmother did it' exception."
+        },
+        {
+          "t": "Acidify every tomato jar",
+          "d": "Add 1 tablespoon of bottled lemon juice or ¼ teaspoon of citric acid per pint, and double for quarts — added to the jar, before the tomatoes. Bottled juice, not fresh: its acidity is consistent."
+        },
+        {
+          "t": "Wash, heat and fill hot",
+          "d": "Wash jars in hot soapy water and keep them hot. Pack the food, add the acid, then leave ½ inch of headspace for water-bath canning. Run a bubble remover around the inside, wipe the rim with a clean damp cloth, and put the lid on to fingertip-tight."
+        },
+        {
+          "t": "Make sure the water covers the jars",
+          "d": "Jars on the rack, water 1–2 inches above the lids, lid on the canner. Bring to a rolling boil, then start timing. Never start the clock before the boil is full."
+        },
+        {
+          "t": "Process the full time, adjusted for altitude",
+          "d": "Whole or halved tomatoes packed in water: 40 minutes for pints and 45 for quarts at 0–1,000 ft, then add 5 minutes for every extra 1,000 ft up to 3,000, and 5 more per 3,000 ft band after that. Crushed tomatoes: 35/45. Tomato juice: 35/40. Use the altitude tool below."
+        },
+        {
+          "t": "Cool, check the seal, wait",
+          "d": "Jars out onto a towel, upright, 12–24 hours untouched. Press the centre of each lid: no flex and no click means sealed. Unsealed jars go in the fridge and get eaten first. Label with contents, date and altitude used."
+        },
+        {
+          "t": "Store cool, dark and dry — then watch it",
+          "d": "Rings off, jars clean, no stacking pressure on the lids. Any bulging lid, leaking jar, cloudy brine, mould or off smell means the whole jar is discarded without tasting. When in doubt, throw it out."
+        }
+      ],
+      "watch": [
+        "Low-acid vegetables in a water bath is the classic botulism route. If a recipe tells you to water-bath green beans, close the book.",
+        "Boiling destroys the toxin but not the spores, so you cannot rescue a suspect jar by cooking it.",
+        "Do not reduce sugar in jam recipes casually; sugar is part of the preservation in some, and tested recipes are tested for a reason.",
+        "Altitude matters. Water boils cooler as you climb, so times go up. Use the calculator rather than memory.",
+        "Never can in an oven, a microwave, a slow cooker or a dishwasher. None of them are tested methods."
+      ],
+      "done": "You have canned one batch of acidified tomatoes, every lid sealed, and every jar is labelled with the date and altitude.",
+      "sources": [
+        {
+          "label": "NCHFP: whole or halved tomatoes packed in water",
+          "url": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/whole-or-halved-tomatoes-packed-in-water/"
+        },
+        {
+          "label": "NCHFP: tomato acidification directions",
+          "url": "https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/"
+        },
+        {
+          "label": "USDA Complete Guide to Home Canning",
+          "url": "https://nchfp.uga.edu/resources/category/usda-guide/"
+        }
+      ]
+    },
+    {
+      "id": "stove",
+      "n": 8,
+      "title": "Make a rocket stove from tin cans",
+      "image": "assets/img/stove.jpg",
+      "image_alt": "Illustration of a rocket stove built from stacked tin cans with a pot on top",
+      "tags": [
+        "Cooking",
+        "Fuel"
+      ],
+      "time": "45 min",
+      "level": "Workshop",
+      "why": "A rocket stove burns twigs instead of logs and gets a full boil out of a handful of sticks. When fuel is scarce or wet, that efficiency is the whole point.",
+      "gear": [
+        "Two or three clean plain-steel cans (no plastic lining, no galvanised coating)",
+        "Tin snips",
+        "A big nail and hammer",
+        "High-temp stove cement or fire-safe sealant (optional)",
+        "Sand, perlite or wood ash for insulation",
+        "Gloves and eye protection"
+      ],
+      "steps": [
+        {
+          "t": "Pick the right cans",
+          "d": "Plain uncoated steel or aluminium food cans, well washed. Avoid galvanised buckets, painted cans and anything that had chemicals in it. Zinc coating on galvanised steel gives off toxic fumes when heated."
+        },
+        {
+          "t": "Cut the feed and the riser",
+          "d": "Cut a feed opening near the base of the large can for twigs to enter horizontally, and a chimney opening at the top where the pot sits. The internal L-shape is what makes it a rocket: fuel goes in sideways, flame goes up."
+        },
+        {
+          "t": "Fill the gap with insulation",
+          "d": "Nest a smaller can inside the larger one and pack the space between with sand, perlite, ash or vermiculite. That layer keeps the burn chamber hot and stops the outer can cooking your hand."
+        },
+        {
+          "t": "Support the pot properly",
+          "d": "Add a few bolts or a rack so the pot sits ½–1 inch above the chimney. Too close and it chokes; too far and the heat escapes."
+        },
+        {
+          "t": "Burn it in outdoors first",
+          "d": "First fire outdoors, away from anything flammable, with a bucket of water and no overhanging branches. Expect smoke and a smell from the can's coating while it cures. Let it cool fully before moving it."
+        },
+        {
+          "t": "Feed small and often",
+          "d": "Dry twigs the thickness of a pencil, fed into the side. Keep the feed tube stocked but not stuffed — the stove wants air moving through it."
+        }
+      ],
+      "watch": [
+        "Never use a rocket stove indoors, in a tent, garage or shed. Carbon monoxide is invisible, and these stoves have no flue.",
+        "Galvanised metal releases zinc fumes when heated. Do not use it, no matter how convenient the bucket looks.",
+        "The outer can gets hot enough to melt a plastic table and to leave a burn scar on a deck. Set it on dirt, sand or stone.",
+        "Do not use it on a burn-ban day, and never leave it lit unattended.",
+        "Cans cut you. Gloves and eye protection, and file the sharp edges before the first burn."
+      ],
+      "done": "You have boiled a litre of water on twigs alone, outdoors, without burning yourself or the table.",
+      "sources": [
+        {
+          "label": "FM 3-05.70 Survival: fire and field expedients",
+          "url": "https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf"
+        },
+        {
+          "label": "CDC: carbon monoxide poisoning basics",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/index.html"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "n": 9,
+      "title": "Run an AI assistant with no cloud",
+      "image": "assets/img/ai.jpg",
+      "image_alt": "Illustration of a phone with a chip inside and a cloud crossed out",
+      "tags": [
+        "Software",
+        "Optional"
+      ],
+      "time": "30 min",
+      "level": "Optional",
+      "why": "A small model on the phone can explain a dense manual passage, translate instructions, or quiz you on a procedure. That is a real use. It is not a doctor, a canning authority, or a substitute for the page it is explaining.",
+      "gear": [
+        "iPhone with free space",
+        "PocketPal AI or LLM Farm (both MIT licensed)",
+        "A model file compatible with the app",
+        "Charged battery, and a power bank"
+      ],
+      "steps": [
+        {
+          "t": "Install a local app, not a chatbot",
+          "d": "PocketPal AI (github.com/a-ghorbani/pocketpal-ai) and LLM Farm (github.com/guinmoon/LLMFarm) both run small models on the device and need no account. Both are MIT licensed."
+        },
+        {
+          "t": "Start with the smallest model",
+          "d": "Download one small model file, load it, and ask something you already know the answer to. If it is slow or the phone heats up, go smaller. There is no verified figure for how much iPhone 15 memory a given model needs — measure it on your own phone."
+        },
+        {
+          "t": "Load your own documents",
+          "d": "Check whether your app can search the PDFs on the phone. Neither app is confirmed to cite page numbers from your library, so assume it cannot until you test it."
+        },
+        {
+          "t": "Use it to explain, not to decide",
+          "d": "Paste a paragraph from a manual you already have and ask it to reword it plainly. That is grounded in a real source you can check. Asking it what dose to give a child is not."
+        },
+        {
+          "t": "Keep it in airplane mode for the drill",
+          "d": "The point of a local model is that it works without a network. Test it that way, or you have only tested the internet."
+        },
+        {
+          "t": "Write down what it is bad at",
+          "d": "In 04-notes, keep a short list of the questions where it gave you a wrong or confident-sounding answer. That list is worth more than the model."
+        }
+      ],
+      "watch": [
+        "A model answering from memory can be confidently wrong about medicine, dosages, canning times and water treatment. Those four topics must come from the sourced cards, every time.",
+        "Page citations only show where text came from; they do not prove the answer matches it. A citation is not proof.",
+        "Model files are large. Do not trade Tier 1 space for a chatbot.",
+        "Expect heat, battery drain and slow responses on a phone. A model that flattens your battery in an hour is not an emergency tool.",
+        "Anything that needs a cloud account is not offline. Read the app's privacy settings before you trust the word 'local'."
+      ],
+      "done": "You have run a model in airplane mode, asked it three questions, and written down one thing it got wrong.",
+      "sources": [
+        {
+          "label": "PocketPal AI (MIT)",
+          "url": "https://github.com/a-ghorbani/pocketpal-ai"
+        },
+        {
+          "label": "LLM Farm (MIT)",
+          "url": "https://github.com/guinmoon/LLMFarm"
+        }
+      ]
+    },
+    {
+      "id": "knots",
+      "n": 10,
+      "title": "Five knots that cover almost everything",
+      "image": null,
+      "tags": [
+        "Rope",
+        "Repair"
+      ],
+      "time": "60 min practice",
+      "level": "Beginner",
+      "why": "Shelter, repairs, hauling, securing a load, hoisting a bear bag: all of it is knot work. Five knots, tied from memory in the dark, will do more for you than twenty half-remembered ones.",
+      "gear": [
+        "10 ft of 5–7 mm cord",
+        "A carabiner or two",
+        "Something to practise on: a post, a chair leg, a tree"
+      ],
+      "steps": [
+        {
+          "t": "Bowline — a loop that will not jam",
+          "d": "Make a small loop, pass the working end up through it, around behind the standing part, then back down through the small loop. Memory aid: the rabbit comes out of the hole, around the tree, and back down the hole. Use it for a fixed loop, a rescue line, or a tarp corner."
+        },
+        {
+          "t": "Two half hitches — tie off to anything",
+          "d": "Pass the working end around the post and back around the standing part, then repeat the same turn once more. Fast, secure enough for a ridge line, and easy to undo. Good around trees and posts."
+        },
+        {
+          "t": "Taut-line hitch — a line you can tighten",
+          "d": "Around a stake or tree: two turns inside the loop, then one turn outside. Slide it up to tension and it holds. This is the knot for tarp ridgelines that stretch when wet."
+        },
+        {
+          "t": "Sheet bend — join two ropes, even different sizes",
+          "d": "Form a bight in the thicker rope, pass the thinner one up through it, around behind both legs, then tuck it under itself. Remember: two ends on the same side, and the thicker rope makes the bight."
+        },
+        {
+          "t": "Trucker's hitch — get real tension",
+          "d": "Anchor one end, make a fixed loop partway along the line, pass the free end around the far anchor and back through that loop, then haul and tie off with two half hitches. This is how you get a tarp drum-tight without ratchets."
+        }
+      ],
+      "watch": [
+        "A knot you cannot untie with cold hands is a liability. Bowlines and half hitches come apart; overhand knots in nylon weld themselves shut.",
+        "Nylon stretches, polyester less, and Dyneema is slippery — some knots slip in slick cord. Test the knot you plan to trust.",
+        "Never use a knot alone for anything life-safety, like climbing or lifting over people. Use rated hardware and proper training.",
+        "Practise with gloves on. In a storm, that is the version of your hands you will have.",
+        "Cut ends melt or fray. Tape or whip them, or they will unravel from the inside."
+      ],
+      "done": "You have tied all five from memory, with gloves on, in low light.",
+      "sources": [
+        {
+          "label": "Animated Knots by Grog",
+          "url": "https://www.animatedknots.com/"
+        },
+        {
+          "label": "FM 3-05.70 Survival: knots and lashings",
+          "url": "https://commons.wikimedia.org/wiki/File:FM_3-05.70_(FM_21-76)_Survival_-_May_2002.pdf"
+        }
+      ]
+    }
+  ]
+}

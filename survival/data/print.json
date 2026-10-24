@@ -1,0 +1,290 @@
+{
+  "updated": "2026-10-24",
+  "note": "Eight cards to print, laminate with clear packing tape, punch a corner and put on a ring. These are the numbers you should not have to unlock a phone to remember.",
+  "cards": [
+    {
+      "id": "p-water",
+      "title": "Water",
+      "code": "01 / WATER",
+      "big": "1 min",
+      "biglabel": "rolling boil — 3 min above 6,500 ft",
+      "rows": [
+        [
+          "Per day",
+          "1 gallon per person. 3 days minimum, 2 weeks better."
+        ],
+        [
+          "Cloudy",
+          "Filter through cloth or let it settle first. Then double the bleach."
+        ],
+        [
+          "Bleach",
+          "8 drops per gallon clear (2 per quart). 16 drops if cloudy."
+        ],
+        [
+          "Wait",
+          "30 minutes. Should smell faintly of chlorine."
+        ],
+        [
+          "Never",
+          "Scented, splashless or thickened bleach. Never mix with ammonia."
+        ],
+        [
+          "Chemicals",
+          "Fuel or pesticide contamination cannot be boiled out. New source."
+        ]
+      ]
+    },
+    {
+      "id": "p-fire",
+      "title": "Fire",
+      "code": "02 / FIRE",
+      "big": "3 sizes",
+      "biglabel": "tinder → pencil twigs → wrist logs",
+      "rows": [
+        [
+          "Gather",
+          "Two armfuls of kindling before you strike anything."
+        ],
+        [
+          "Nest",
+          "Dry grass, birch bark, fatwood, dryer lint — fist-sized and airy."
+        ],
+        [
+          "Feed",
+          "Light low. Add bigger wood only when flames are steady."
+        ],
+        [
+          "Site",
+          "Cleared ground, 10 ft from tents, no overhanging branches."
+        ],
+        [
+          "Never",
+          "Fire indoors or in a tent. Carbon monoxide has no smell."
+        ],
+        [
+          "Out",
+          "Water, stir, water again, back of hand near the ash."
+        ]
+      ]
+    },
+    {
+      "id": "p-signal",
+      "title": "Signal",
+      "code": "03 / SIGNAL",
+      "big": "3 of anything",
+      "biglabel": "three fires, three blasts, three flashes",
+      "rows": [
+        [
+          "V",
+          "Need assistance"
+        ],
+        [
+          "X",
+          "Need medical help"
+        ],
+        [
+          "Arrow",
+          "Travelling this direction"
+        ],
+        [
+          "I",
+          "Serious injury"
+        ],
+        [
+          "Mirror",
+          "Sight through the hole, catch the glare on your hand, aim at the target."
+        ],
+        [
+          "Whistle",
+          "Three blasts. Cheaper than shouting and carries further."
+        ]
+      ]
+    },
+    {
+      "id": "p-bleed",
+      "title": "Severe bleeding",
+      "code": "04 / BLEEDING",
+      "big": "5–10 min",
+      "biglabel": "uninterrupted direct pressure",
+      "rows": [
+        [
+          "Press",
+          "Hard, directly on the wound. Do not lift to check."
+        ],
+        [
+          "Soaked",
+          "Add gauze on top. Never remove a soaked dressing."
+        ],
+        [
+          "Pack",
+          "Deep junction wounds: stuff gauze in, press over the top for 3 min."
+        ],
+        [
+          "Tourniquet",
+          "2–3 in above the wound, not over a joint. Tighten until it stops. Write the time."
+        ],
+        [
+          "Shock",
+          "Lay flat, keep warm, nothing to eat or drink."
+        ],
+        [
+          "Call",
+          "Emergency services first, then work. Say 'severe bleeding'."
+        ]
+      ]
+    },
+    {
+      "id": "p-med",
+      "title": "First aid order",
+      "code": "05 / FIRST AID",
+      "big": "ABCDE",
+      "biglabel": "safety first, then in this order",
+      "rows": [
+        [
+          "Safety",
+          "Do not become the second patient."
+        ],
+        [
+          "A",
+          "Airway — open it, clear it."
+        ],
+        [
+          "B",
+          "Breathing — look, listen, feel. Rescue breaths if trained."
+        ],
+        [
+          "C",
+          "Circulation — stop the bleeding, treat for shock."
+        ],
+        [
+          "D",
+          "Disability — responsiveness, pupils, signs of head injury."
+        ],
+        [
+          "E",
+          "Exposure — get them out of weather, check for other injuries."
+        ],
+        [
+          "Note",
+          "This is a memory aid. Take a hands-on course."
+        ]
+      ]
+    },
+    {
+      "id": "p-food",
+      "title": "Food safety",
+      "code": "06 / FOOD",
+      "big": "40°F / 0°F",
+      "biglabel": "fridge at or below 40°F · freezer at or below 0°F",
+      "rows": [
+        [
+          "2-hour rule",
+          "Perishable food left out over 2 hours gets thrown out. 1 hour above 90°F."
+        ],
+        [
+          "No power",
+          "Keep the fridge shut. It holds about 4 hours; a full freezer about 48."
+        ],
+        [
+          "Leftovers",
+          "3–4 days in a fridge. No fridge, no leftovers."
+        ],
+        [
+          "Cans",
+          "Bulging, leaking or badly dented cans: discard without tasting."
+        ],
+        [
+          "Jars",
+          "Bulging lid, cloudy brine, mould or off smell: discard without tasting."
+        ],
+        [
+          "Reheat",
+          "Bring leftovers to a full simmer, not just warm."
+        ]
+      ]
+    },
+    {
+      "id": "p-ratio",
+      "title": "Kitchen ratios",
+      "code": "07 / RATIOS",
+      "big": "1 : 1.75",
+      "biglabel": "rice to water, by volume",
+      "rows": [
+        [
+          "Rice",
+          "1 cup rice : 1¾ cups water. 18 min, lid on, 10 min rest."
+        ],
+        [
+          "Oats",
+          "1 : 2 by volume. Simmer 5 min."
+        ],
+        [
+          "Lentils",
+          "1 : 3. Simmer 25–30 min, no soaking."
+        ],
+        [
+          "Lentil soup",
+          "1 lentil : 1 rice : 6 water."
+        ],
+        [
+          "Flatbread",
+          "2 cups flour : 2 tsp baking powder : ¾ tsp salt : 2 tbsp oil : ⅔ cup water."
+        ],
+        [
+          "ORS",
+          "1 L water : 6 level tsp sugar : ½ level tsp salt."
+        ]
+      ]
+    },
+    {
+      "id": "p-can",
+      "title": "Canning",
+      "code": "08 / CANNING",
+      "big": "½ inch",
+      "biglabel": "headspace for water-bath jars",
+      "rows": [
+        [
+          "Tomatoes",
+          "Acidify: 1 tbsp bottled lemon juice or ¼ tsp citric acid per pint. Double for quarts."
+        ],
+        [
+          "Water bath",
+          "Whole tomatoes in water: 40 min pints, 45 min quarts at 0–1,000 ft."
+        ],
+        [
+          "Altitude",
+          "+5 min at 1,001–3,000 ft; +10 at 3,001–6,000; +15 above 6,000."
+        ],
+        [
+          "Low-acid",
+          "Beans, corn, meat, soup: pressure canner only. No exceptions."
+        ],
+        [
+          "Seal",
+          "No flex or click after 12–24 hours. Unsealed jars go in the fridge."
+        ],
+        [
+          "Discard",
+          "Never taste a suspect jar. Boiling does not make it safe."
+        ]
+      ]
+    }
+  ],
+  "contacts": {
+    "title": "Household card",
+    "code": "09 / FILL THIS IN",
+    "lines": [
+      "Out-of-area contact: ______________________",
+      "Local contact: ______________________",
+      "Meeting point 1: ______________________",
+      "Meeting point 2: ______________________",
+      "Water shut-off location: ______________________",
+      "Gas shut-off location: ______________________",
+      "Nearest hospital: ______________________",
+      "Pharmacy: ______________________",
+      "Vet / pet plan: ______________________",
+      "Prescriptions and doses: ______________________"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Offline Survival Library",
+  "short_name": "Survival Library",
+  "description": "An offline field manual for an iPhone: setup plan, ten field skills, pantry recipes, printable pocket cards and a shelf of sourced, public-domain manuals.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1e8d4",
+  "theme_color": "#3f4a33",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%233f4a33'/%3E%3Cpath d='M128 352h256M160 288h192M192 224h128M224 160h64' stroke='%23f1e8d4' stroke-width='34' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["books", "reference", "utilities"]
+}
