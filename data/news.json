@@ -1,6 +1,61 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-29",
   "items": [
+    {
+      "date": "2026-10-29",
+      "title": "MetaMask makes Stellar a default network, bringing global payments into the Open Money platform",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/metamask-makes-stellar-a-default-network-bringing-global-payments-into-the-open-money-platform",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "WalletConnect Expands Stellar Network Support and Partnership with Penrose Partners to Bring Walletconnect Pay to Bermuda in Support of the Government’s Onchain Economy Vision",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/walletconnect-expands-stellar-network-support-and-partnership-with-penrose-partners-to-bring-walletconnect-pay-to-bermuda-in-support-of-the-government-s-onchain-economy-vision",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Airtm and BVNK partner to expand wallet-native payments to emerging markets",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/airtm-and-bvnk-partner-to-expand-wallet-native-payments-to-emerging-markets",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Movantis Integrates with the Stellar Network to Expand Its Cross-Border Payments Infrastructure",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/movantis-integrates-with-the-stellar-network-to-expand-its-cross-border-payments-infrastructure",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "ACI Worldwide and Circle Collaborate to Bring USDC Settlement to Existing Payments Infrastructure in Latin America",
+      "rails": [
+        "USDC"
+      ],
+      "url": "https://www.circle.com/pressroom/aci-worldwide-and-circle-collaborate-to-bring-usdc-settlement-to-existing-payments-infrastructure-in-latin-america",
+      "publisher": "Circle",
+      "origin": "feed:Circle pressroom",
+      "date_source": "jsonld"
+    },
     {
       "date": "2026-10-12",
       "title": "Standard Chartered launches RLUSD custody and joins planned collateral integration with Ripple and LMAX Group",

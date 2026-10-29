@@ -1,7 +1,66 @@
 {
-  "run_at": "2026-10-20T07:00:41-07:00",
-  "new_count": 0,
-  "new": [],
+  "run_at": "2026-10-29T08:04:56-07:00",
+  "new_count": 5,
+  "new": [
+    {
+      "date": "2026-10-29",
+      "title": "MetaMask makes Stellar a default network, bringing global payments into the Open Money platform",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/metamask-makes-stellar-a-default-network-bringing-global-payments-into-the-open-money-platform",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "WalletConnect Expands Stellar Network Support and Partnership with Penrose Partners to Bring Walletconnect Pay to Bermuda in Support of the Government’s Onchain Economy Vision",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/walletconnect-expands-stellar-network-support-and-partnership-with-penrose-partners-to-bring-walletconnect-pay-to-bermuda-in-support-of-the-government-s-onchain-economy-vision",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Airtm and BVNK partner to expand wallet-native payments to emerging markets",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/airtm-and-bvnk-partner-to-expand-wallet-native-payments-to-emerging-markets",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Movantis Integrates with the Stellar Network to Expand Its Cross-Border Payments Infrastructure",
+      "rails": [
+        "Stellar"
+      ],
+      "url": "https://stellar.org/press/movantis-integrates-with-the-stellar-network-to-expand-its-cross-border-payments-infrastructure",
+      "publisher": "Stellar",
+      "origin": "feed:Stellar press",
+      "date_source": "time-tag"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "ACI Worldwide and Circle Collaborate to Bring USDC Settlement to Existing Payments Infrastructure in Latin America",
+      "rails": [
+        "USDC"
+      ],
+      "url": "https://www.circle.com/pressroom/aci-worldwide-and-circle-collaborate-to-bring-usdc-settlement-to-existing-payments-infrastructure-in-latin-america",
+      "publisher": "Circle",
+      "origin": "feed:Circle pressroom",
+      "date_source": "jsonld"
+    }
+  ],
   "needs_review": [],
-  "errors": []
+  "errors": [
+    "Ripple press: HTTP Error 429: Too Many Requests",
+    "Ripple insights: HTTP Error 429: Too Many Requests"
+  ]
 }
